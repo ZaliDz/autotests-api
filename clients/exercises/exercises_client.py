@@ -3,7 +3,16 @@ from typing import TypedDict
 from httpx import Response
 
 from clients.api_client import APIClient
+from clients.private_http_builder import AuthenticationUserDict, get_private_http_client
 
+class Exercise(TypedDict):
+    title: str
+    courseId: str
+    maxScore: int
+    minScore: int
+    description: str
+    estimatedTime: str
+    orderIndex: int
 
 class GetExercisesQueryDict(TypedDict):
     """
@@ -22,6 +31,12 @@ class CreateExercisesRequestDict(TypedDict):
     orderIndex: int
     description: str
     estimatedTime: str
+
+class CreateExercisesResponseDict(TypedDict):
+    """
+    Описание структуры ответа создания упражнения.
+    """
+    exercise: list[Exercise]
 
 class UpdateExercisesRequestDict(TypedDict):
     '''
@@ -84,3 +99,15 @@ class ExercesesClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.delete(f"/api/v1/exercises/{exercise_id}")
+    
+    def create_exercise(self, request: CreateExercisesRequestDict) -> CreateExercisesResponseDict:
+        response = self.create_exercise_api(request)
+        return response.json()
+    
+def get_exercises_client(user: AuthenticationUserDict) -> ExercesesClient:
+    """
+    Функция создаёт экземпляр ExercisesClient с уже настроенным HTTP-клиентом.
+
+    :return: Готовый к использованию ExercisesClient.
+    """
+    return ExercesesClient(client=get_private_http_client(user))
