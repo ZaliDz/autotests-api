@@ -17,7 +17,7 @@ class PublicUsersClient(APIClient):
     Клиент для работы с /api/v1/users
     '''
 
-    def create_user_api(self, request: CreateRequestDict) -> Response:
+    def create_user_api(self, request: CreateUserRequestDict) -> Response:
         '''
         Метод выполняет регистрацию пользователя.
 
