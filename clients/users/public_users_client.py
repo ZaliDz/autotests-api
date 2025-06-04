@@ -3,7 +3,7 @@ from httpx import Response
 from typing import TypedDict
 
 
-class CreateRequestDict(TypedDict):
+class CreateUserRequestDict(TypedDict):
     email: str
     password: str
     lastName: str
