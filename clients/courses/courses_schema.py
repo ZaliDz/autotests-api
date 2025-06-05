@@ -46,9 +46,6 @@ class CreateCourseResponseSchema(BaseModel):
     '''
     Описание структуры ответа создания курса
     '''
-
-    model_config = ConfigDict(populate_by_name=True)
-
     course: CourseSchema
 
 class GetCoursesResponseSchema(BaseModel):
