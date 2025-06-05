@@ -28,7 +28,7 @@ class CreateCourseRequestSchema(BaseModel):
     created_by_user_id: str = Field(alias="createdByUserId")
 
 
-class Course(BaseModel):
+class CourseSchema(BaseModel):
 
     '''Описание структуры курса'''
     model_config = ConfigDict(populate_by_name=True)
@@ -39,6 +39,8 @@ class Course(BaseModel):
     min_score: int = Field(alias="minScore")
     description: str
     preview_file: FileSchema = Field(alias="previewFile")
+    estimated_time: str = Field(alias="estimatedTime")
+    created_by_user: UserSchema = Field(alias="createdByUser")
 
 class CreateCourseResponseSchema(BaseModel):
     '''
@@ -47,14 +49,12 @@ class CreateCourseResponseSchema(BaseModel):
 
     model_config = ConfigDict(populate_by_name=True)
 
-    courses: Course
-    estimated_time: str = Field(alias="estimatedTime")
-    created_by_user: UserSchema = Field(alias="createdByUser")
+    course: CourseSchema
 
 class GetCoursesResponseSchema(BaseModel):
     '''Описание структуры ответа получения информация о курсах'''
 
-    courses: list[CreateCourseResponseSchema]
+    courses: list[CourseSchema]
 
 
 class UpdateCourseRequestSchema(BaseModel):
