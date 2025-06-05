@@ -59,10 +59,8 @@ class CoursesClient(APIClient):
         """
         return self.delete(f"/api/v1/courses/{course_id}")
 
-    # Добавили новый метод
     def create_course(self, request: CreateCourseRequestSchema) -> CreateCourseResponseSchema:
         response = self.create_course_api(request)
-        print(response.text)
         return CreateCourseResponseSchema.model_validate_json(response.text)
 
 
