@@ -1,7 +1,7 @@
 from pydantic import BaseModel, Field, ConfigDict
 
 
-class Exercise(BaseModel):
+class ExerciseSchema(BaseModel):
     """
     Описание структуры задания.
     """
@@ -19,7 +19,7 @@ class GetExerciseResponseSchema(BaseModel):
     """
     Описание структуры ответа на получение задания.
     """
-    exercise: Exercise
+    exercise: ExerciseSchema
 
 class GetExerciseQuerySchema(BaseModel):
     """
@@ -57,16 +57,17 @@ class CreateExerciseResponseSchema(BaseModel):
     '''
     Описание структуры ответа создания упражнения
     '''
-    exercise: Exercise
+    exercise: ExerciseSchema
 
 class UpdateExerciseResponseSchema(BaseModel):
     '''
     Описание структуры ответа обновления упражнения
     '''
-    exercise: Exercise
+    exercise: ExerciseSchema
 
 class GetExercisesResponseSchema(BaseModel):
     """
     Описание структуры ответа на получение списка заданий.
     """
-    exercise: list[Exercise]
+    exercise: list[ExerciseSchema]
+
