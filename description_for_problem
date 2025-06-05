@@ -1,0 +1,27 @@
+Ошибки в терминале:
+
+File "python/course/autotests-api/api_client_create_exercise.py", line 45, in <module>
+create_course_response = courses_client.create_course(create_course_request)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "python/course/autotests-api/clients/courses/courses_client.py", line 66, in create_course
+return CreateCourseResponseSchema.model_validate_json(response.text)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "python/venv/lib/python3.12/site-packages/pydantic/main.py", line 656, in model_validate_json
+return cls.__pydantic_validator__.validate_json(json_data, strict=strict, context=context)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for CreateCourseResponseSchema
+courses
+Field required [type=missing, input_value={'course': {'id': '78194e...middleName': 'string'}}}, input_type=dict]
+For further information visit https://errors.pydantic.dev/2.10/v/missing
+estimatedTime
+Field required [type=missing, input_value={'course': {'id': '78194e...middleName': 'string'}}}, input_type=dict]
+For further information visit https://errors.pydantic.dev/2.10/v/missing
+createdByUser
+Field required [type=missing, input_value={'course': {'id': '78194e...middleName': 'string'}}}, input_type=dict]
+For further information visit https://errors.pydantic.dev/2.10/v/missing
+
+при этом в CoursesClient.create_course значения корректно отображаются (я добавила вывод в консоль ответа):
+
+{"course":{"id":"78194e70-1ff3-40f6-918f-42a722d50dfa","title":"Python","maxScore":100,"minScore":10,"description":"Python API course","previewFile":{"id":"ce721d89-4733-44a3-a0a0-185ccb64f4af","filename":"image.png","directory":"courses","url":"http://localhost:8000/static/courses/image.png"},"estimatedTime":"2 weeks","createdByUser":{"id":"14b91eac-f4bc-4137-a121-95cd530f90f9","email":"test.1749133713.4783905@example.com","lastName":"string","firstName":"string","middleName":"string"}}}
+
+как я понимаю, ошибка связана с тем, что я пытаюсь создать экземпляр CreateCourseResponseSchema, используя данные, которые не содержат этих полей, но ведь в response эти поля есть
