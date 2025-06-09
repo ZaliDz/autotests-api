@@ -66,16 +66,15 @@ class TestExercises:
     def test_get_exercises(
             self,
             exercises_client: ExercisesClient,
-            function_exercises: ExerciseFixture,
-            function_course: CourseFixture
+            function_course: CourseFixture,
+            function_exercise: ExerciseFixture
     ):
-        create_response = exercises_client.create_exercise(function_exercises.request)
-        query = GetExerciseQuerySchema(course_id=function_course.response.course.id)
+        query = GetExerciseQuerySchema(course_id=function_exercise.response.exercise.course_id)
         response = exercises_client.get_exercises_api(query)
         response_data = GetExercisesResponseSchema.model_validate_json(response.text)
 
         assert_status_code(response.status_code, HTTPStatus.OK)
-        assert_get_exercises_response(response_data, [function_exercises.response])
+        assert_get_exercises_response(response_data, [function_exercise.response])
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
