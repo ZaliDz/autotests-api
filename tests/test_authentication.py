@@ -1,30 +1,42 @@
 from http import HTTPStatus
+from tools.allure.tags import AllureTag
 import pytest
-from clients.users.public_users_client import get_public_users_client
-from clients.authentication.authentication_client import get_authentication_client
-from clients.users.users_schema import CreateUserRequestSchema
+import allure
+from clients.authentication.authentication_client import AuthenticationClient
+from clients.authentication.authentication_schema import LoginRequestSchema, LoginResponseSchema
+from fixtures.users import UserFixture
+from tools.assertions.authentication import assert_login_response
 from tools.assertions.base import assert_status_code
 from tools.assertions.schema import validate_json_schema
-from clients.private_http_builder import AuthenticationUserSchema
-from clients.authentication.authentication_schema import LoginResponseSchema
-from tools.assertions.authentication import assert_login_response
+from tools.allure.epics import AllureEpic
+from tools.allure.features import AllureFeature
+from tools.allure.stories import AllureStory 
+from allure_commons.types import Severity
+
 
 @pytest.mark.regression
 @pytest.mark.authentication
-def test_login():
-    public_users_client = get_public_users_client()
+@allure.tag(AllureTag.REGRESSION, AllureTag.AUTHENTICATION)
+@allure.epic(AllureEpic.LMS)
+@allure.feature(AllureFeature.AUTHENTICATION)
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeature.AUTHENTICATION)
+class TestAuthentication:
 
-    create_user_request = CreateUserRequestSchema()
-    create_user_response = public_users_client.create_user(create_user_request)
-    
-    authentication_user_request = AuthenticationUserSchema(
-    email=create_user_request.email,
-    password=create_user_request.password
-)
-    auth_users_client = get_authentication_client()
-    login_response = auth_users_client.login_api(authentication_user_request)
-    login_response_data = LoginResponseSchema.model_validate_json(login_response.text)
-    
-    assert_status_code(login_response.status_code, HTTPStatus.OK)
-    assert_login_response(login_response_data)
-    validate_json_schema(login_response.json(), login_response_data.model_json_schema())
+    @allure.story(AllureStory.LOGIN)
+    @allure.title("Login with correct email and password")
+    @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.LOGIN)
+    def test_login(
+            self,
+            function_user: UserFixture,
+            authentication_client: AuthenticationClient
+    ):
+        request = LoginRequestSchema(email=function_user.email, password=function_user.password)
+        response = authentication_client.login_api(request)
+        response_data = LoginResponseSchema.model_validate_json(response.text)
+
+        assert_status_code(response.status_code, HTTPStatus.OK)
+        assert_login_response(response_data)
+
+        validate_json_schema(response.json(), response_data.model_json_schema())
