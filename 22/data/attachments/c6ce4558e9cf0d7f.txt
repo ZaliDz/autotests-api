@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDEwOjE2OjU3LjQzNjUxOCIsInVzZXJfaWQiOiI2NjNhNGI4OS1iNTIwLTRjOGMtOTcwOS1iMDdhMWFhNzMwMjYifQ.tPAKFtfaC4g-iyCJCaXW4l8CqmvvENqj7n61GleBwk8' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Anything huge week themselves interest.","maxScore":69,"minScore":26,"description":"The write age include. Might five everything people out off.\nCulture be without never each stop treat poor. Final husband difference. Class trial nor computer.","estimatedTime":"10 weeks","previewFileId":"8c618cb4-d22c-441e-81cf-e8d74dfb818e","createdByUserId":"663a4b89-b520-4c8c-9709-b07a1aa73026"}'

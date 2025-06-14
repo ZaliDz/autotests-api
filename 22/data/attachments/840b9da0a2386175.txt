@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDEwOjE2OjU4LjYxNzk5MSIsInVzZXJfaWQiOiJlNDAwMDg1My1jNmNmLTRiODQtYTM2OS1kMzRmMThlZjY4NmUifQ.DYn3a57w786Bggj1UAJtBaGozO2KcMRbiUGtkCElfIs' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Friend officer against tend save several area.","maxScore":74,"minScore":15,"description":"According agent maybe want newspaper. Station knowledge woman.\nWind myself step wait yard official might. Nor agency phone defense tonight system. Approach middle school already loss community a.","estimatedTime":"2 weeks","previewFileId":"b1689fa6-d0e1-4f81-8450-068333dfb1df","createdByUserId":"e4000853-c6cf-4b84-a369-d34f18ef686e"}'

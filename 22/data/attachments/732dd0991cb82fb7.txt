@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDEwOjE2OjU5Ljc5NTcwNSIsInVzZXJfaWQiOiIwMmQzNDQyMy05NmZkLTQ2MjEtYTM3My1hNWM0OWY4ODdlYzQifQ.bQzpkKPit766nIXzBLgr5V_hO6Z9obWc7-P_V5MRbkg' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Easy young dinner ability another moment.","maxScore":53,"minScore":14,"description":"Born case less different.\nCrime within data different economic power talk. Finish soon carry that moment.\nSchool court citizen end site shoulder. Speak bag well.","estimatedTime":"3 weeks","previewFileId":"695b0b51-f1f6-47b5-91e7-f6c4e8b81893","createdByUserId":"02d34423-96fd-4621-a373-a5c49f887ec4"}'

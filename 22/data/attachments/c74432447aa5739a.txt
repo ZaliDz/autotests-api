@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDEwOjE2OjU3LjcwODkwNiIsInVzZXJfaWQiOiI3MzRhYTIzYi1lNTBiLTQxZmUtYmEzYS0wODhmNDdlY2UwYzYifQ.vBhLccwesV3XZU8EaalZXgPE6qXHkhaJhtWw1t6kn-c' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Citizen may from suffer quality product.","maxScore":81,"minScore":23,"description":"Once finally city sound something skin. Late production message fire really and make. Truth letter its Congress court.\nHair science nation of under. Order should share again.","estimatedTime":"10 weeks","previewFileId":"2371abf0-8918-40a5-af77-aca89d989828","createdByUserId":"734aa23b-e50b-41fe-ba3a-088f47ece0c6"}'

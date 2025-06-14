@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDEwOjE3OjAwLjk4MzQ1OCIsInVzZXJfaWQiOiJlY2RjOGZkMC1jNzgxLTQxNjctOTlhZS01NTRhYTUyZWRhOWIifQ.KxZwSBaXg-a_ObEZP_4ah6xVMYUuh_k-K7KD8rWCjL8' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Provide ok nice produce red include man culture.","maxScore":66,"minScore":1,"description":"Capital responsibility watch store recent quickly here. Color modern administration party two.\nManagement early himself day. Part bank nation environment. Face treatment ask sound.","estimatedTime":"5 weeks","previewFileId":"494c6058-93be-42c0-9cb0-42fdddb7755c","createdByUserId":"ecdc8fd0-c781-4167-99ae-554aa52eda9b"}'

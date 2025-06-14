@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDEwOjE2OjU2LjI5NTMxOSIsInVzZXJfaWQiOiJlYjdlYjU0ZC04OWQ4LTRjMTAtYjRhMS1hMjQzNTE2ZDk0N2IifQ.BaBvyjHx0ENLH_n_sr0q9G6oTZ8qFy-Ak-C2adnUeDo' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Technology pull fire low.","maxScore":78,"minScore":1,"description":"Where will fill trial. Physical magazine small.\nWhose officer place page. Left issue what indeed vote light. Attack career best serious official woman.","estimatedTime":"8 weeks","previewFileId":"d14f2fa4-f3e1-43f6-839a-1012763c3180","createdByUserId":"eb7eb54d-89d8-4c10-b4a1-a243516d947b"}'
