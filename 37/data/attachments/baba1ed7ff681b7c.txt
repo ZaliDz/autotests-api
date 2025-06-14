@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/6f1a3838-fd5f-4db3-a7c5-b1fe0cba99e8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE1OjU5OjA2LjA4OTc4MyIsInVzZXJfaWQiOiI1OTQ0Mzc0YS00YzAwLTQyNTktOWIyOS1mZDIyMGVmYjI4NmQifQ.32xmeS_V6urZBI6zYXOb8dlSPsBx8pdrBNkXfDyf0HU' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Become character if fly soldier that at by.","maxScore":90,"minScore":22,"description":"Boy themselves property source. Popular care past energy talk yet. Store letter economy moment.\nPhone might yes drive. Attorney mouth environment long factor join card.","estimatedTime":"8 weeks"}'

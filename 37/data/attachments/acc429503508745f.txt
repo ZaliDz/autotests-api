@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE1OjU5OjA2LjA4OTc4MyIsInVzZXJfaWQiOiI1OTQ0Mzc0YS00YzAwLTQyNTktOWIyOS1mZDIyMGVmYjI4NmQifQ.32xmeS_V6urZBI6zYXOb8dlSPsBx8pdrBNkXfDyf0HU' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Anyone need how both.","maxScore":92,"minScore":24,"description":"Letter current establish. Simple others affect bed individual never. Else star man. Sign painting me nice foreign even.\nLeft stuff discover. Order natural mention financial.","estimatedTime":"3 weeks","previewFileId":"7c1260e6-1f8d-4c7d-b2e4-6c36152fbf76","createdByUserId":"5944374a-4c00-4259-9b29-fd220efb286d"}'

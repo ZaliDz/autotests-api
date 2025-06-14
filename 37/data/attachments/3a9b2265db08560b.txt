@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/ebce99e9-71bd-4f89-9420-574308960f78' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE1OjU5OjA3Ljg5NjI5MyIsInVzZXJfaWQiOiJjNTM0NDc3ZS0zNDY1LTQ1NTYtOWYxOS01Y2JkNzJlNjAzM2IifQ.ZXKqF5L7A1d5VeTjgPHtS02zSw4cfnP0WbFjP-mIMNo' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nor medical happen fish sport current.","courseId":"9e1908f4-99bd-45c7-a21d-739c6ba6d07f","maxScore":50,"minScore":14,"orderIndex":11,"description":"Would size couple institution family character for with. Big body others total modern prove. Television participant plan care. Gun get shake total house attorney change.","estimatedTime":"4 weeks"}'

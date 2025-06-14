@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE1OjU5OjA3Ljg5NjI5MyIsInVzZXJfaWQiOiJjNTM0NDc3ZS0zNDY1LTQ1NTYtOWYxOS01Y2JkNzJlNjAzM2IifQ.ZXKqF5L7A1d5VeTjgPHtS02zSw4cfnP0WbFjP-mIMNo' \
+  -H 'content-length: 297' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Follow candidate response picture design sister director.","courseId":"4324c543-86ab-41ef-9539-a0e065195cd3","maxScore":94,"minScore":4,"orderIndex":77,"description":"Financial watch them only. Study main small operation while guy.\nLow red no chance certain.","estimatedTime":"2 weeks"}'

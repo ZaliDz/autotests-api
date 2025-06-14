@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE1OjU5OjA3Ljg5NjI5MyIsInVzZXJfaWQiOiJjNTM0NDc3ZS0zNDY1LTQ1NTYtOWYxOS01Y2JkNzJlNjAzM2IifQ.ZXKqF5L7A1d5VeTjgPHtS02zSw4cfnP0WbFjP-mIMNo' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Place participant right power make.","maxScore":62,"minScore":6,"description":"Consumer generation too figure. Boy star focus worry federal body occur. At finally benefit among.\nCare listen voice reveal buy.\nBank movie sense market.","estimatedTime":"7 weeks","previewFileId":"e15a924a-b242-4373-9f87-7907c86aecfc","createdByUserId":"c534477e-3465-4556-9f19-5cbd72e6033b"}'

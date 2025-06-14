@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE1OjU5OjA3LjMwODc5NSIsInVzZXJfaWQiOiI0ODQ2ZjE0YS01MDRiLTRjZGEtYjI5Mi0yZTUxYmNkZTlkZGYifQ.pQpkoiVnsankim2qGOnJ7DLQ66yTjEie5IemiMg_Gno' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Two social speak cover rock their alone.","maxScore":79,"minScore":4,"description":"Performance couple decision environmental firm. Machine do create chance. Never easy state player fire. Throughout nothing out imagine can.","estimatedTime":"7 weeks","previewFileId":"0a84a366-a4ee-4a46-959e-98684547ecab","createdByUserId":"4846f14a-504b-4cda-b292-2e51bcde9ddf"}'

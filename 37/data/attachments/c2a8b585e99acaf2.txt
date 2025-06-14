@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE1OjU5OjA5LjcyMzk2NyIsInVzZXJfaWQiOiI1Mjk0Y2FjMC04OGI2LTRlODItODI4Ny0wZWYxZTIxMjM3N2MifQ.ZLJuLK_fkCYjOvzhrDod5W_b4JD6tUOVWWnElFwLD1Q' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Why represent amount career political reality really.","maxScore":67,"minScore":3,"description":"Large certain provide author thus sing edge. Opportunity prepare easy message ever whose figure institution. Wife skill budget remain.","estimatedTime":"8 weeks","previewFileId":"87ee98be-faff-4d64-8893-49a9e127036f","createdByUserId":"5294cac0-88b6-4e82-8287-0ef1e212377c"}'

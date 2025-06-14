@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE1OjU5OjA4LjQ3NjUwNSIsInVzZXJfaWQiOiJhYTk1MTZlZC03NmZiLTRlOTctYTI5NC01NzJmZDhhNmJkMjUifQ.X47icwL_D6BYgHNkHD9LIVUZNJesCB3zZlGcirnyaOc' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"West despite must institution determine act matter.","maxScore":76,"minScore":11,"description":"Reflect various safe meeting parent within family. Stay environment sense instead shoulder data keep. Compare direction sell low chance trouble catch.","estimatedTime":"6 weeks","previewFileId":"31855b3c-b087-47b1-b076-d3d67331fb60","createdByUserId":"aa9516ed-76fb-4e97-a294-572fd8a6bd25"}'

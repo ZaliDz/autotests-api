@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE1OjU5OjA2LjcyNTg3MSIsInVzZXJfaWQiOiIyYjBiZGQ0OS1jN2FkLTQ1OWYtODZjNy0yZjk0ZTQzMDI2NjQifQ.uyChuyTPKNs6NNXEJi3i-bCfgltQum5MUMNEBVG68dQ' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Participant start play hospital.","maxScore":67,"minScore":10,"description":"Hard positive away land. Agent area member sometimes term often. Stuff pull different shake only.","estimatedTime":"3 weeks","previewFileId":"7fd605ba-0b04-4c03-8e21-ecc485470f49","createdByUserId":"2b0bdd49-c7ad-459f-86c7-2f94e4302664"}'
