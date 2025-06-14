@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE2OjEwOjIzLjgxODE0OCIsInVzZXJfaWQiOiI4YTJkZDZmOS0zNjFmLTRjNmItYTFmNi1hYjBiNWIwOGE5MzkifQ.KxKNgjSbzjzwua8mv97KttIdnbcBXW35yIt_pdYBqk8' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Walk call report return resource customer ask.","maxScore":86,"minScore":13,"description":"Give computer report project wife unit husband back. Figure many of pattern. Down ready challenge instead front technology too dog.","estimatedTime":"7 weeks","previewFileId":"c50411ca-c166-453d-9441-1d3970f0dbba","createdByUserId":"8a2dd6f9-361f-4c6b-a1f6-ab0b5b08a939"}'

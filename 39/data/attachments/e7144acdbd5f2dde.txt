@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE2OjEwOjI2LjE3Nzg2MyIsInVzZXJfaWQiOiJmYWYyZTVhZC01OWE1LTQ1YzctOWNjOC01OWE5ODhmNTFjNjEifQ.b48k2hn-lfFIH0L4UgHQymVLhxLv2ISsj6DIsi4En7I' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tree south always pretty thank stop face.","maxScore":92,"minScore":2,"description":"Company politics central subject. Send level civil. Near early pay what on image his.","estimatedTime":"10 weeks","previewFileId":"c329e528-45bd-4d6d-9a6b-1df05da4fa0d","createdByUserId":"faf2e5ad-59a5-45c7-9cc8-59a988f51c61"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE2OjEwOjI1LjkwNDE0OCIsInVzZXJfaWQiOiI2NGM0YjlmMy04NTQ2LTRiMjktOWVkNS01MDM3OTMwNmEzMmEifQ.qDzKC7m0OCdaONEcA4PDKiRFpd5zucHhkqJATFztCSM' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Degree describe determine article place important.","maxScore":90,"minScore":8,"description":"Positive say nation rest church across. Past miss quality southern environmental. Spend amount society professional ask look game.","estimatedTime":"3 weeks","previewFileId":"8b0d38c8-9ba2-4b5a-9fb3-6a64bf8b1766","createdByUserId":"64c4b9f3-8546-4b29-9ed5-50379306a32a"}'

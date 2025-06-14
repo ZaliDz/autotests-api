@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE2OjEwOjIzLjU0NDU1NiIsInVzZXJfaWQiOiI4Mjk1NzVlYy04ZWEyLTQ3MDgtYTdhMS01ZjNjYjE2NWMxMzMifQ.DH-Ao2iXKAuv29IZKH3Ql33QockzHZBgNHyYK-nKxWM' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Draw feel standard bring people.","maxScore":93,"minScore":13,"description":"Strong of course open member low change player.\nUp figure table box bag. Fill center consumer song rest relationship travel. Style fact himself talk summer you.","estimatedTime":"7 weeks","previewFileId":"384d5053-eadd-470f-8dd5-00b34cb50044","createdByUserId":"829575ec-8ea2-4708-a7a1-5f3cb165c133"}'

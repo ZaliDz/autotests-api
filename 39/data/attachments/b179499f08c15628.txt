@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE2OjEwOjI3LjEyMTI1OSIsInVzZXJfaWQiOiJmODJkNWRiMy04ZDU4LTRmZmEtYmJhZi01MDlkNTE4N2UyOGIifQ.g1Q6IMH_kOCsqxpr-1QlC_nEoznxuCdHBsVuYvO39h0' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stock research about hot nearly.","courseId":"f9cce952-4a7b-4969-9639-0c8f982c8087","maxScore":99,"minScore":7,"orderIndex":9,"description":"Style less significant head stop. Seat reality order common occur build meet.\nTreatment ready particularly man always data. Name including want only issue section.","estimatedTime":"1 weeks"}'

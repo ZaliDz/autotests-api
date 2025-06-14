@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f84d0f9d-9d74-4cce-8c23-65debf1589c0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE2OjEwOjIzLjU0NDU1NiIsInVzZXJfaWQiOiI4Mjk1NzVlYy04ZWEyLTQ3MDgtYTdhMS01ZjNjYjE2NWMxMzMifQ.DH-Ao2iXKAuv29IZKH3Ql33QockzHZBgNHyYK-nKxWM' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whatever point sister fly.","maxScore":96,"minScore":20,"description":"Detail along herself save. Forget score chair where.\nGive tonight build tax. Smile couple race send wife.\nAir machine organization arrive.\nSister truth fight activity which. Me our sign life contain.","estimatedTime":"3 weeks"}'

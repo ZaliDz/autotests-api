@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/39ddf5e2-3c68-4662-a9eb-fa2ea7f1f23a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE2OjEwOjI0Ljk5NDY5MyIsInVzZXJfaWQiOiI2NjNkMmM3MC0yNzE3LTQ3MTktOTJiMS04ZGY0ZmExNDBiNzgifQ.1MT1vKjtpaBtuIcdF3gbmeaOdnKeT-OXH-e5zuGtF7Q' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Analysis Democrat out.","courseId":"76f112fe-76e7-4363-934a-2aa9428e388f","maxScore":74,"minScore":19,"orderIndex":49,"description":"Receive nor myself consumer get. Future eight rock history then.\nBetter follow effort local. Court teach notice community end.\nFull paper floor other. Community three cover anyone course small.","estimatedTime":"1 weeks"}'

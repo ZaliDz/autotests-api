@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE2OjEwOjI0LjcyMjAwMSIsInVzZXJfaWQiOiI1ZDhjYzRkMS00OTExLTRkYWUtYmVmYS1kY2RmNWJjOTVkYTYifQ.YIp_Zqj5OAgag47QSMr01xenYRg0OqXbRoa557sretk' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Much member image green.","maxScore":60,"minScore":28,"description":"End line know consumer stock. Church executive raise father pretty local part one. Long rock most many family white.\nSince his hospital whose child church long. Today goal score.","estimatedTime":"10 weeks","previewFileId":"6c5e37df-2f20-4984-8f27-3d44401db9fa","createdByUserId":"5d8cc4d1-4911-4dae-befa-dcdf5bc95da6"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE2OjEwOjI3LjEyMTI1OSIsInVzZXJfaWQiOiJmODJkNWRiMy04ZDU4LTRmZmEtYmJhZi01MDlkNTE4N2UyOGIifQ.g1Q6IMH_kOCsqxpr-1QlC_nEoznxuCdHBsVuYvO39h0' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"True these law decide.","maxScore":96,"minScore":1,"description":"Coach memory happy statement hot. Blue until for training public kitchen. Apply education key check stand their hospital speak.","estimatedTime":"6 weeks","previewFileId":"6972f413-521e-482f-89ba-999013472634","createdByUserId":"f82d5db3-8d58-4ffa-bbaf-509d5187e28b"}'
