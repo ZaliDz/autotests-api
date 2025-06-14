@@ -44,7 +44,7 @@ class UpdateExerciseRequestSchema(BaseModel):
 
 class CreateExerciseRequestSchema(BaseModel):
     '''
-    Описание структуры запроса обновления упражнения
+    Описание структуры запроса создания упражнения
     '''
     title: str = Field(default_factory=fake.sentence)
     course_id: str = Field(alias="courseId", default_factory=fake.uuid4)
@@ -70,4 +70,4 @@ class GetExercisesResponseSchema(BaseModel):
     """
     Описание структуры ответа на получение списка заданий.
     """
-    exercise: list[ExerciseSchema]
+    exercises: list[ExerciseSchema]
