@@ -45,7 +45,7 @@ class TestUsers:
     @allure.title("Get user me")
     @allure.severity(Severity.CRITICAL)
     @allure.sub_suite(AllureStory.GET_ENTITY)
-    def test_ger_user_me(
+    def test_get_user_me(
             self,
             function_user: UserFixture,
             private_users_client: PrivateUsersClient
