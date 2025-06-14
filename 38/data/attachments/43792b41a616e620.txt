@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE2OjA3OjQ4LjI2NzczMiIsInVzZXJfaWQiOiI1MzU0OGVkMy05NTkwLTQ4YjQtYjQ1Ny04MWY1ZWIzZDBkODkifQ.kzk0O-RDDcqLKux4WFdnXkO0sXp-0_WYVXvS6DG2Imo' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Military common strategy.","courseId":"626fac6e-23ca-4021-b473-b86472adf16a","maxScore":67,"minScore":7,"orderIndex":91,"description":"Weight size movement full yes. Suffer fund night win option store. About current paper different daughter. Side pull whether than lose just represent.","estimatedTime":"3 weeks"}'

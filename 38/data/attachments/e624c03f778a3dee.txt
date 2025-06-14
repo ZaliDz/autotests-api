@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE2OjA3OjQ3LjA4Mzk3MyIsInVzZXJfaWQiOiIxMDFhZjRkYy01ODEyLTRiMzItOWI4NS01OTgwMDgxM2EwNmUifQ.Hoe3dzXfNyEVE1XtKP67ATwIyBuX48csqThBKXpGnLk' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Her interview though establish garden ten individual.","maxScore":95,"minScore":12,"description":"Turn Republican game thought. Fall remember professional person time onto college.\nArm international family rule allow mention suffer. Tax practice TV speech price blood community.","estimatedTime":"3 weeks","previewFileId":"95517d18-9e40-4649-96fa-6bf8c7d673de","createdByUserId":"101af4dc-5812-4b32-9b85-59800813a06e"}'

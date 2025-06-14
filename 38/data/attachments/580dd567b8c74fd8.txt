@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE2OjA3OjQ1LjI5NDEyMSIsInVzZXJfaWQiOiJiODkyY2UxNi04Yjk3LTQ0YmQtOTEwOC1lNTVjYzRjZjg5ZjMifQ.X6dCNqdz8GkTKpNUvDFnKUIO2Kh753JMXu_jxiiAuHE' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Similar long education nothing along out example authority.","maxScore":69,"minScore":20,"description":"Stand commercial coach great most member six reality. Cold thought old miss maybe land. Leave week stay staff marriage use boy.","estimatedTime":"7 weeks","previewFileId":"45f960b7-6bdb-4a85-a5f6-8cbe7c09b494","createdByUserId":"b892ce16-8b97-44bd-9108-e55cc4cf89f3"}'

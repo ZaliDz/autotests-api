@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE2OjA3OjQ5LjUwMzQ3NyIsInVzZXJfaWQiOiIxMWY1YWVhYS04NmYyLTRjMzgtODhhOC1iNzRmOTE3Nzc0MmMifQ.JURYsH8mKLcmxuORjiWD82AyQCn5gQY6wCOXkowBFjo' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Budget near change across total.","maxScore":77,"minScore":13,"description":"Smile leg teacher side. Though beyond their price similar level. Away conference any letter.\nTeam woman deal part manage mean people. Test thus result town movement its. Lead less perform stock.","estimatedTime":"8 weeks","previewFileId":"dd55d409-7f84-476c-b4ce-4595f5175ab1","createdByUserId":"11f5aeaa-86f2-4c38-88a8-b74f9177742c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE2OjA3OjQ4Ljg5NjMwMiIsInVzZXJfaWQiOiJlZjQzMzQ4OS00MzRhLTQ1ZjMtOTFhOC1mNjdjODFmYzg1Y2UifQ.qXKoHnYi3FShe4hXxD_xR6JZrc2A6QxANZ77tBdk_s4' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Operation its TV mean.","maxScore":99,"minScore":13,"description":"Help social buy stop although. My production score picture bit.\nNew development concern stock nice. Tend make second consider eat turn.","estimatedTime":"8 weeks","previewFileId":"cb1cee0e-4f4a-4e77-9ccb-ecdf133486f4","createdByUserId":"ef433489-434a-45f3-91a8-f67c81fc85ce"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE2OjA3OjQ4LjI2NzczMiIsInVzZXJfaWQiOiI1MzU0OGVkMy05NTkwLTQ4YjQtYjQ1Ny04MWY1ZWIzZDBkODkifQ.kzk0O-RDDcqLKux4WFdnXkO0sXp-0_WYVXvS6DG2Imo' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wife key ahead help computer politics listen.","maxScore":75,"minScore":13,"description":"Admit manage on child. Situation southern form author performance story. Bed catch election state school their add.\nView water analysis clearly bit class. Member traditional doctor identify down.","estimatedTime":"3 weeks","previewFileId":"a586bc27-0557-411a-8d53-4364cb9ffbd2","createdByUserId":"53548ed3-9590-48b4-b457-81f5eb3d0d89"}'

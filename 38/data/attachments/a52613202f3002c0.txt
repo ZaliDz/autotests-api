@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/fa86acc2-7c15-4f4e-aae6-b362f9de7bda' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE2OjA3OjQ1Ljg3NjY2NSIsInVzZXJfaWQiOiJlMmJhZmQwYi00MTcyLTRmNzgtOTVjMy04NDE4ZDU5ZThjZmIifQ.m0z3vqGrZj8jQRYuL0oGDrkcRML-AHu-mDpCxhlqoOA' \
+  -H 'content-length: 233' \
+  -H 'content-type: application/json' \
+  -d '{"title":"How writer chair interest director glass week.","maxScore":60,"minScore":10,"description":"Understand nothing community ahead understand.\nAnything just professional where analysis professional.","estimatedTime":"10 weeks"}'

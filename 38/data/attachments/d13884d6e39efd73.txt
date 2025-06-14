@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE2OjA3OjQ2LjQ5OTM0MiIsInVzZXJfaWQiOiIwMjJhMmM0OC05ZjVkLTRiZDktYWYyOC0zNDVlZWZmYjNlNGIifQ.e-HVk11acATgxkoH1jzVndh8Xj45XZb9tuYdhcpxZCE' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wish smile decade three.","maxScore":57,"minScore":1,"description":"Feeling situation drive employee degree among machine fly. You very hard natural leg service physical.\nWrite hundred benefit. Summer style early teacher letter PM.","estimatedTime":"8 weeks","previewFileId":"dfc77fd5-7820-4906-b2f3-5305e4b62d51","createdByUserId":"022a2c48-9f5d-4bd9-af28-345eeffb3e4b"}'
