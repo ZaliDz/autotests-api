@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE1OjU2OjM0LjY0MDA4OCIsInVzZXJfaWQiOiJkNjVjMWIwOC1hOWJiLTQ4ZTQtOWQyOS1iMGYwYTAzNWIyNzMifQ.QuEr-5dNSR_TkMZ35A_OC9w8AXw-0KMXXULsY93Ou8I' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Street per participant various.","maxScore":65,"minScore":10,"description":"Military example necessary break. Trip successful news open enjoy.\nGreen exactly case spring rise difficult a. Rather toward if expect first ready suggest.\nCare actually again leave wrong.","estimatedTime":"10 weeks","previewFileId":"20df95bd-5ec4-42ad-a75c-a8eeccf38033","createdByUserId":"d65c1b08-a9bb-48e4-9d29-b0f0a035b273"}'

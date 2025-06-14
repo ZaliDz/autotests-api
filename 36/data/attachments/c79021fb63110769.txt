@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE1OjU2OjMyLjg4OTAxOSIsInVzZXJfaWQiOiIxNzQ3ZjA4ZS02ZTIwLTRmZjctYjY2MS05ODQ3Y2I2MmZkZWMifQ.QiqSRXWEd0LjbO4I8ZPTynzycyQXuJbPrWx24HZ8X3Q' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Help glass shoulder imagine impact development.","maxScore":70,"minScore":30,"description":"Bill cause direction. Recent often tax community data last let. Between entire guy black writer affect.\nSport customer he information. When evening agent growth.","estimatedTime":"1 weeks","previewFileId":"d1ea3806-a4de-4356-9fd6-6a65eee8362e","createdByUserId":"1747f08e-6e20-4ff7-b661-9847cb62fdec"}'

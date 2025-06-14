@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE1OjU2OjM1Ljg4OTkyMCIsInVzZXJfaWQiOiJiZDI1NjYyNS03NTdkLTQ5MDUtYjZmMS1kYzcyZTZlZDBkNDEifQ.j0RnoUae7lF-XQVTiYU_HfNAYc1LSwtzk4J8FoOGQu8' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Party sell leg itself.","maxScore":69,"minScore":1,"description":"Finish visit management involve happen. Letter summer apply close too during only.\nWhat scene wife career kind. Visit team modern need.","estimatedTime":"6 weeks","previewFileId":"b5fda9b9-2f4d-4cbb-a651-ace6ecd64c16","createdByUserId":"bd256625-757d-4905-b6f1-dc72e6ed0d41"}'

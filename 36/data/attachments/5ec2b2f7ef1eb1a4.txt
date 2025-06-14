@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDE1OjU2OjMxLjY2OTk3OSIsInVzZXJfaWQiOiIxMjg5ZmExYS04Mjc4LTQ5MjYtYTk0Ni0zNmI0ZWI3ODM2MjQifQ.KwXO1v6RhQn1Ov5Bbjft5PINffxKuc7fSBKMAzVrRT4' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Movement sign team.","maxScore":91,"minScore":19,"description":"I over late call. Place positive future environmental appear. Less many anything.","estimatedTime":"4 weeks","previewFileId":"52ec2a02-f537-4176-82d4-52eaea10b8ce","createdByUserId":"1289fa1a-8278-4926-a946-36b4eb783624"}'
