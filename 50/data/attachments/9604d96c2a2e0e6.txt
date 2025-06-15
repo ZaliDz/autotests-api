@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjE1LjE2NDEwMiIsInVzZXJfaWQiOiJlMTE4OGU2Zi02Y2EyLTQyYWUtYWVhMy04NWVlZWVkNDFlMmEifQ.-NVhZg1LUG58a27g-4Efedj2alfBAVwyA2W2TmLlzIc' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mind face be effect southern about late something.","maxScore":81,"minScore":7,"description":"Case particularly wall development interest market adult. Wait everyone painting as drop building network city.","estimatedTime":"9 weeks","previewFileId":"e10f9f8e-f796-4b5e-bae5-f7140294a91c","createdByUserId":"e1188e6f-6ca2-42ae-aea3-85eeeed41e2a"}'

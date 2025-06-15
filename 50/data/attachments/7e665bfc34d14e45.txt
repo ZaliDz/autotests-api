@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjEzLjk3NDAzNiIsInVzZXJfaWQiOiJhMjU4M2I0My0zNGUzLTQ0MjEtYWRhYS1hZGRjOTM3ZDM4NGYifQ.TZKn9FoQiE7v-cW6GLEQ6jVDwFX0CwufVE24XmBKwqc' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Class article ask Republican fine cell join whom.","maxScore":95,"minScore":29,"description":"Idea blue drug. Shoulder cover among increase.\nShow pattern receive form forward agreement sort much. Writer firm either year police government protect. After walk performance worker level.","estimatedTime":"3 weeks","previewFileId":"4647c63e-8e99-4f89-8675-1799462e6d6b","createdByUserId":"a2583b43-34e3-4421-adaa-addc937d384f"}'

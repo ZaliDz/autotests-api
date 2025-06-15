@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9e422cf4-9cad-4d2f-8b71-e7a506f5d1d2' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjEyLjUxODA2MSIsInVzZXJfaWQiOiJmYTJlNTIzNi02MDE0LTQxMmMtYWNjMi0yZjVhNDdhMmJkMTEifQ.fR5ydyPg55tb4kklcFqHuPjm_AmhIKCos2Zg2_dZMTM' \
+  -H 'content-length: 212' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Grow blue return look upon everyone raise continue.","maxScore":60,"minScore":24,"description":"Service career mother. List near tell remain. Church season military standard.","estimatedTime":"7 weeks"}'

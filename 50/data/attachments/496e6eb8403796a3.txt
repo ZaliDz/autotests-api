@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjEzLjcwMDk5MyIsInVzZXJfaWQiOiJmN2NlY2EzOC04OTA0LTRjZTItOWYzOC02ZWRlZGQ2NGQzYjEifQ.0ARdXyTV01GeBCviMeBFc7IgmBbWfQ7t-0aLKk1D9wg' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Care her business wonder response.","maxScore":82,"minScore":2,"description":"Technology action policy world hit. Today throughout share part glass together realize.\nIdentify defense center describe accept.","estimatedTime":"7 weeks","previewFileId":"30a6ce21-0751-42d4-a1df-3580ee53d6e7","createdByUserId":"f7ceca38-8904-4ce2-9f38-6ededd64d3b1"}'

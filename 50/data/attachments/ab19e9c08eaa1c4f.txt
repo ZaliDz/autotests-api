@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjEyLjUxODA2MSIsInVzZXJfaWQiOiJmYTJlNTIzNi02MDE0LTQxMmMtYWNjMi0yZjVhNDdhMmJkMTEifQ.fR5ydyPg55tb4kklcFqHuPjm_AmhIKCos2Zg2_dZMTM' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Much data more beautiful travel former service eat.","maxScore":59,"minScore":25,"description":"Ever town return notice media job pay sometimes. Interview put student stock color number. Design sort five know PM level.","estimatedTime":"8 weeks","previewFileId":"3999c87a-72ed-4cf5-93f7-60bd709011fa","createdByUserId":"fa2e5236-6014-412c-acc2-2f5a47a2bd11"}'

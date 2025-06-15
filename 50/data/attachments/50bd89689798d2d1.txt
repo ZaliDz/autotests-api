@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjE1Ljg0MTk3NSIsInVzZXJfaWQiOiI2OTI5NWQ4Mi05MWMwLTQ3MzctYmU3Yi00YThiYWFhODUwMTUifQ.5HmLS7plvkVgJi-I8IEfxn0Ab2D0LKkXsyNW27RhOD0' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tonight hotel goal letter become series.","maxScore":66,"minScore":9,"description":"Democratic prove international. Stay fall protect.\nHead win everybody economy. Stage best culture until. Yes end management thing history.\nSing enter various quickly religious claim will against.","estimatedTime":"3 weeks","previewFileId":"75c8e5dc-f606-46db-b397-e88cab0ba2da","createdByUserId":"69295d82-91c0-4737-be7b-4a8baaa85015"}'

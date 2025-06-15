@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjEyLjc5MDI4MyIsInVzZXJfaWQiOiJkNDQ2Yjg2OS02NDU3LTQ5MDYtYmZlZi1jN2FjODNiOGM2YjEifQ.ZXhc7i1PsA7giq7TXkNRlNhiw34pfbGPAoR0nkNyoac' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"She red value Mr thought decision language me.","maxScore":97,"minScore":20,"description":"Movie three poor. Plan experience particular chance cup believe. Or Mr beat police kind.\nHope back face sure environment find return near. Population police mention week draw me.","estimatedTime":"5 weeks","previewFileId":"ed076d1c-ad54-42b2-bed7-918a516eeded","createdByUserId":"d446b869-6457-4906-bfef-c7ac83b8c6b1"}'

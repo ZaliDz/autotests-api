@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjE0Ljg4OTk5MiIsInVzZXJfaWQiOiJkY2IyNjJmZC03NDUzLTQwNTAtODkyNy01YzhhMzcyNWMwNWMifQ.fCW62dwl2OsmdesIYxQL76VyYRFosvVWdzh-a3C3Avk' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Author adult trade both throw change skill.","maxScore":64,"minScore":1,"description":"Center four truth call who. Mr begin commercial vote. Pretty education themselves account environment idea room. Can part seven letter old.","estimatedTime":"2 weeks","previewFileId":"29d9ff0e-72f5-4456-80c6-ddf124db4152","createdByUserId":"dcb262fd-7453-4050-8927-5c8a3725c05c"}'

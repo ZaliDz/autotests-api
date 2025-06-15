@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjExLjM4MDYzNiIsInVzZXJfaWQiOiJhZDVmZGFjMC1lYjMwLTQyY2MtOGNlMi1iNzRmOTlhOThhZDQifQ.rlW_W4hAnWYItTtxBUGUYr-H_fY8hlnGEFAmYxxKziY' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Home service nothing west magazine production.","maxScore":64,"minScore":1,"description":"Statement have ready statement investment. Account address any room even with stop. Feel tonight six eat.","estimatedTime":"6 weeks","previewFileId":"968c548e-d824-4392-8b40-00e51ec6f2ff","createdByUserId":"ad5fdac0-eb30-42cc-8ce2-b74f99a98ad4"}'
