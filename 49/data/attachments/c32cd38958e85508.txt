@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjAyLjY1MjY3NyIsInVzZXJfaWQiOiIwN2QxZDg4YS03Mzc3LTRmNzYtOTcwYS1kOTEzZDI1OWJiMDIifQ.TyeYdPhGshn28NXv236CfMxZT-qi9KvE2Urd3XCASRY' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pick voice any none reach.","maxScore":72,"minScore":9,"description":"Book determine information moment on training likely. Together apply alone create large better west. Whom sing yes or together meeting.","estimatedTime":"8 weeks","previewFileId":"5d1f9918-ca0a-40ab-a3c6-92c58bb0914c","createdByUserId":"07d1d88a-7377-4f76-970a-d913d259bb02"}'

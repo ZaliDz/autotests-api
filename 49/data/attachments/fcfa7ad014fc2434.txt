@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjAxLjQwMjE3MiIsInVzZXJfaWQiOiI3YWQ1NTNkYS03Mzk4LTRiODItYWE0OS02YjhmY2NmYjRjNTYifQ.TKe_t1VfOdTOTkJskvXOsNHRlEDmW9lWOx4l9g5qQD4' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Western as specific paper series.","maxScore":100,"minScore":9,"description":"Threat federal represent reduce. Per thus student economy page military consider they. Throw someone look quickly mission interest serve approach.","estimatedTime":"3 weeks","previewFileId":"0f35ccb1-c6cb-4d31-abb8-47a35f12b660","createdByUserId":"7ad553da-7398-4b82-aa49-6b8fccfb4c56"}'

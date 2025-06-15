@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE3OjU5LjA0NTMwNiIsInVzZXJfaWQiOiI4ZWFiNTFhNC05NDI1LTQ0M2EtYjkxMy03NmFkYjY0YjcyOTIifQ.arvH1g0PpHEKRXCHJbJbjqH9CQD49udEkfp7xxqYSnk' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Financial yet physical decade talk former bank chance.","maxScore":78,"minScore":3,"description":"Represent feel key save husband price local. Skin learn draw view worker.","estimatedTime":"8 weeks","previewFileId":"d61eaebc-9fa9-49d7-8ac1-d5e7fb8bf9f7","createdByUserId":"8eab51a4-9425-443a-b913-76adb64b7292"}'

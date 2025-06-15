@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/558c1145-9619-4beb-bed7-8b89dbdc945e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE3OjU5LjA0NTMwNiIsInVzZXJfaWQiOiI4ZWFiNTFhNC05NDI1LTQ0M2EtYjkxMy03NmFkYjY0YjcyOTIifQ.arvH1g0PpHEKRXCHJbJbjqH9CQD49udEkfp7xxqYSnk' \
+  -H 'content-length: 274' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Receive traditional central point rock.","maxScore":90,"minScore":14,"description":"Single view every him. Start real guy listen push program final.\nUp lawyer fine coach. Appear air view board. Item article military bag total wear yes.","estimatedTime":"3 weeks"}'

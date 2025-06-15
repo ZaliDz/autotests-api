@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjAwLjIyMTYwNyIsInVzZXJfaWQiOiI4YjhiODIwOS0yNGUzLTQ5NjYtYWI2MS00ZmIxYTIwYmZmYzEifQ.1co05Y6SMKNQVOvEK1-qE1-_IE-poyJmt8aJyFHWlQE' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Artist majority accept community certainly once management.","maxScore":100,"minScore":17,"description":"International thank will call teacher senior. Save modern on Congress who hour. Peace society newspaper enough southern five.\nMyself challenge particularly.","estimatedTime":"5 weeks","previewFileId":"62907695-1452-4090-8c3c-810fbbbe612e","createdByUserId":"8b8b8209-24e3-4966-ab61-4fb1a20bffc1"}'

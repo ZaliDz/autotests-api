@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjAwLjgxMjU2NiIsInVzZXJfaWQiOiJlOWIyZGJkZC0wNGQ0LTQ3ZmItOTQ1ZS02Y2NlYzRjZGE3OWQifQ.8xSljAfmkLnIpNexh1LDLINdtJcz6JSJRO8N93ROLcQ' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Explain few need same event successful charge.","maxScore":65,"minScore":8,"description":"Kind plan top school most truth I. Market system this brother. Relationship single center coach smile.","estimatedTime":"6 weeks","previewFileId":"bc5442ba-caa7-4335-89c2-c46e45d7f194","createdByUserId":"e9b2dbdd-04d4-47fb-945e-6ccec4cda79d"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE3OjU4LjE1NDA2NyIsInVzZXJfaWQiOiI1NzRmNTUzYy03YjZjLTRmMGItYmUyOS1hMWJjY2Y3ZjljMWYifQ.sWebT-SmDy3osB6UuAMbms1-8ncH_Hq6qRvZ8480I9E' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"You century produce say spend throughout upon.","maxScore":79,"minScore":29,"description":"Appear message or. Position condition something significant letter series.\nOperation up daughter design natural read. But mean red admit.","estimatedTime":"3 weeks","previewFileId":"6e374317-d27f-40ba-a362-8c2227b12f26","createdByUserId":"574f553c-7b6c-4f0b-be29-a1bccf7f9c1f"}'
