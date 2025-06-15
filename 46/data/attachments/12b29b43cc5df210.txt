@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjU0LjYzMTY3MiIsInVzZXJfaWQiOiI2NWQ2YTRhYy0wMDA1LTQ1YTgtOTU5OS0xYjhjZmIzZDY1NTQifQ.9Op9LCrohiYwtfYCO1h7FacUmiVmz9-arE_7-R3joEA' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Majority might marriage effect ahead.","maxScore":94,"minScore":6,"description":"Least be card sing outside no. Man few before laugh. Who father scene require similar however.","estimatedTime":"10 weeks","previewFileId":"9b0bca64-387c-408b-91b3-ee170c9af1ae","createdByUserId":"65d6a4ac-0005-45a8-9599-1b8cfb3d6554"}'

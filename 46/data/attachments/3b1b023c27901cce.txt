@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjU0LjA0MTAyNCIsInVzZXJfaWQiOiI5ZGM2ZTBiNy1jMzg1LTRmMGYtOGY3Zi05NjVmNDZhNTJhZTUifQ.28KiScXcru2EiOM02OEX8iHyDNTqHQSxErUYIledsU4' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Owner serious develop game hot push.","maxScore":53,"minScore":25,"description":"Former yes control glass sort area. Key behavior offer national consider agree. Quite region fight.\nKeep step green quickly information when fire nice.","estimatedTime":"1 weeks","previewFileId":"81904d5a-fbd9-4e47-8075-acb9542aaa72","createdByUserId":"9dc6e0b7-c385-4f0f-8f7f-965f46a52ae5"}'

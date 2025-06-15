@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjU1LjIwOTUwNiIsInVzZXJfaWQiOiI0OGU1NDRjNi1kNmQ1LTQwMzMtYmNmZi1hNzExYTNjNTYyZjYifQ.DIguivaQEQLE5axlCLaCE04gT6ZuQPwwOuNXU_TRbFs' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Argue reach owner drive heart able.","maxScore":82,"minScore":20,"description":"Home early recognize. City you new take science under. Stand whose stand someone contain beautiful behavior.","estimatedTime":"4 weeks","previewFileId":"20f95f56-73f8-4192-833f-5b60d547156d","createdByUserId":"48e544c6-d6d5-4033-bcff-a711a3c562f6"}'

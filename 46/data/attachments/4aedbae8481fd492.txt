@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjU1Ljc5MTIxOCIsInVzZXJfaWQiOiJkMTdkMDEzZC0zOWM0LTQyZmQtODliMC0xZWZiNTE4NzU2ZDkifQ.LO0LK58ZAMNwTZMpsCxwD9JHBMau-2f4akqr779Ocjk' \
+  -H 'content-length: 289' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Policy certain sign hold.","maxScore":93,"minScore":22,"description":"Property news rather. Parent your involve real occur manager despite.","estimatedTime":"9 weeks","previewFileId":"4c48a476-7124-4e13-9e93-075338f05b3f","createdByUserId":"d17d013d-39c4-42fd-89b0-1efb518756d9"}'

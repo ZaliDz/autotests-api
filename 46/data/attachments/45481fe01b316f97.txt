@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjU2LjQxNjUxMiIsInVzZXJfaWQiOiI5NzNjODQ2YS1kY2U4LTRmYzUtYjY1My1iYzhjNDg4NjE0OWIifQ.t7i4mNrWWMajoSZT3_QDnl_lrI5VT3kG9nlx22g13y8' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Listen all idea rule some soon.","maxScore":89,"minScore":1,"description":"Plan this voice will. Ready name lead line believe local.\nCreate floor science issue. Mrs will several explain difference analysis effort.","estimatedTime":"1 weeks","previewFileId":"97ccc223-a706-4b5d-ae4f-a4a29f0cc984","createdByUserId":"973c846a-dce8-4fc5-b653-bc8c4886149b"}'

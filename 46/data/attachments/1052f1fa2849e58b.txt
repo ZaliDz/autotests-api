@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjU3LjY1NDY3NyIsInVzZXJfaWQiOiJmOWQwNmM1OC0wNGE4LTRiNmQtYTMwZC0yNjUzMjNmZjA4YTMifQ.dj7-85Oy0Uj-A17s2LGi4yx5pGY3xpXEJGs1jUVrx2E' \
+  -H 'content-length: 283' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Exist type adult officer happy where reason.","maxScore":97,"minScore":23,"description":"Something money stuff. Floor amount central.","estimatedTime":"5 weeks","previewFileId":"52a35740-e649-4992-b337-9f4491ffb3c7","createdByUserId":"f9d06c58-04a8-4b6d-a30d-265323ff08a3"}'

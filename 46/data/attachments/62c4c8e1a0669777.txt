@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjU2LjQxNjUxMiIsInVzZXJfaWQiOiI5NzNjODQ2YS1kY2U4LTRmYzUtYjY1My1iYzhjNDg4NjE0OWIifQ.t7i4mNrWWMajoSZT3_QDnl_lrI5VT3kG9nlx22g13y8' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quite traditional indeed call history.","courseId":"cf9d4c6a-b82d-45ee-8cab-a85cc29675ff","maxScore":69,"minScore":14,"orderIndex":4,"description":"She experience board west. Now chair camera consumer section.\nAllow drive spend toward act. Could represent way interesting plant.\nSort movement best upon generation ten spend.","estimatedTime":"1 weeks"}'
