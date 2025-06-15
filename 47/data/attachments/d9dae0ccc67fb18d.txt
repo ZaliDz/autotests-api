@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE3OjIwLjA3MTg2NCIsInVzZXJfaWQiOiIzMjE5ZGI2YS0yNDY0LTRhOWQtODA5OS0wNjdlZGI3ODQyODQifQ.8HWqAcULsJ3n-HJz6bLDupxvNe8Ckn6IHaH_fRlnRyw' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"So quite man authority.","maxScore":68,"minScore":1,"description":"West trial him nice vote thus return. Follow reflect throw race its. Call claim between upon.\nRead will under image reality home mind. Board both table officer. Week rate she management.","estimatedTime":"4 weeks","previewFileId":"06dca3da-695f-43f9-a47b-48b53e682b2d","createdByUserId":"3219db6a-2464-4a9d-8099-067edb784284"}'

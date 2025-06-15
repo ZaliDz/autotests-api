@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE3OjIxLjA0NDU5NCIsInVzZXJfaWQiOiJjMGVjNDUyNi0yMmM5LTRiMjQtOTg5OC01OWMyMTU4NDE5OWQifQ.sxj7HllIur56TRcRONR7Ek3u4tV9QzHEbNGunYA6e4E' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Land crime home reality last.","maxScore":76,"minScore":22,"description":"Such quickly such direction face school theory. Most central resource happy. Land industry particularly fear five scientist.\nMemory spring stand fact last. Cold fire onto specific.","estimatedTime":"2 weeks","previewFileId":"d243b9b4-4f00-434e-8658-9b875e6127f6","createdByUserId":"c0ec4526-22c9-4b24-9898-59c21584199d"}'

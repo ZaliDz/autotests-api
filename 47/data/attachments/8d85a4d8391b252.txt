@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE3OjE3LjY3OTY3OCIsInVzZXJfaWQiOiI2MWZlODU1Mi05MjIwLTQ5NDItYWNiOC1lOWQ0ZWM3YTUxZmIifQ.hQc0yd0c0AvFvL4zN5NcljFGkcufYjHQPlcYMaztUVA' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pull article also issue mother cultural both.","maxScore":87,"minScore":2,"description":"Both foot nation weight story. Certain test politics read I.\nWhole direction important. Which newspaper finally season carry. Green better happen use.","estimatedTime":"6 weeks","previewFileId":"3b7ff786-4643-418d-ba6d-1cb4e2e09857","createdByUserId":"61fe8552-9220-4942-acb8-e9d4ec7a51fb"}'

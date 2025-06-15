@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE3OjE4LjYwNjE2OSIsInVzZXJfaWQiOiJiNzI3MmM3OC1lZWFkLTRmMjAtYTVmZS02YjhhY2QyNTA4YjMifQ.zRuz2ja0SZ-l4rJdCus4CefVeEy4f3a4mfMLannQdCs' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reflect list particular for.","courseId":"cc7b9232-9b9c-477f-b489-7179c25805bb","maxScore":56,"minScore":22,"orderIndex":86,"description":"Tonight soldier relate sport. Husband hundred land relationship off.\nBuilding role popular rest successful. Memory would key worry. Free door nation from mouth.\nDecade technology use can war true.","estimatedTime":"3 weeks"}'

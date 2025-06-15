@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e0ad83f8-2c1f-4679-89b9-c0a99893e0bd' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE3OjE3LjQwNjcwNSIsInVzZXJfaWQiOiJjMmI5MjkzMy00NDY2LTQ1YWYtODc4Yi04NjFiN2U2ODcxNDIifQ.tRfxjZCXLIxbM73akaec_akTMqF449QLSkgL2C7NA9U' \
+  -H 'content-length: 273' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Article try middle science.","maxScore":80,"minScore":19,"description":"Too us themselves almost response. Administration past together window. Especially address social start necessary area.\nCommon test especially little plan record.","estimatedTime":"4 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE3OjE2LjI2MDQ5OSIsInVzZXJfaWQiOiI0NTRmYjMxZS05MTVkLTQyMDYtODNhNS0wY2U1MTM3NTU2Y2UifQ._bGeBCHyfWMA2GRj9IHE4FsZRAYMd2tOWvPLVY-Hbps' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Process a claim wrong.","maxScore":99,"minScore":22,"description":"Say he such meet various parent. Send although century hot.\nDog second notice evening present accept. Expert whom particularly either experience source perhaps trip. Culture animal manager.","estimatedTime":"4 weeks","previewFileId":"5bab4679-4bf6-46fa-ae30-f3474c9d489c","createdByUserId":"454fb31e-915d-4206-83a5-0ce5137556ce"}'

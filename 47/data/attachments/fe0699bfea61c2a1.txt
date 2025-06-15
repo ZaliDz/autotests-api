@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE3OjE5Ljc5NzMyMCIsInVzZXJfaWQiOiIxMTcyZjkyNi03YjM3LTQzODgtYWE1NS05YWMyZmY0OTk0MzEifQ.plFfKCib23a-apRwrpwyWobu0ACxY2b-hX3GAvQGzjY' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eye music employee down.","maxScore":75,"minScore":9,"description":"Lawyer popular quite believe take. No third build may. Seven risk all growth.\nInstead walk reality moment option world challenge. Sea line it new yeah you. Toward task fast father.","estimatedTime":"3 weeks","previewFileId":"4a978d2a-62f3-42f9-a587-ed5b981e5e4a","createdByUserId":"1172f926-7b37-4388-aa55-9ac2ff499431"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE3OjE4Ljg4MDU4NiIsInVzZXJfaWQiOiIwNmE5NWY5MS04MzFjLTQ2MDktOTQzNy1hZTY1ODMwMmQyYzMifQ.pxYLetWty9EZWUrW-oQ3RAwZtZv_AaeJaJLYuHbxSlo' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Through dinner start finally statement.","maxScore":98,"minScore":24,"description":"Maybe behavior detail church improve. Need situation because ever lawyer.\nThus throughout force turn while person write gun. Manage my our.","estimatedTime":"1 weeks","previewFileId":"5b267829-b1d8-4476-af17-b43de0328f2b","createdByUserId":"06a95f91-831c-4609-9437-ae658302d2c3"}'
