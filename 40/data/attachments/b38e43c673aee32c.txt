@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjIxLjU0MDUzMCIsInVzZXJfaWQiOiIyZDExZmVlNC00ZDU3LTQxYjAtYTVjYS0yZGY1ZGU2NzMxN2IifQ.n5qTs5Nb3Oc02zgFcXO4QNBlvnotW4sLhmjgoBBeSY8' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Approach customer case official peace executive.","maxScore":77,"minScore":12,"description":"Protect tough leader use very training owner. They attack as similar similar.\nSuddenly sense case. Statement institution attack sit memory first relationship.","estimatedTime":"10 weeks","previewFileId":"0c39aacb-59bf-4664-b899-2e4779954e09","createdByUserId":"2d11fee4-4d57-41b0-a5ca-2df5de67317b"}'

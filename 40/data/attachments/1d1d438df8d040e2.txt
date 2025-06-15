@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/1dbbf0c6-ef65-4dea-8ef6-2d6c4211142e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjE3Ljk2MDk2OCIsInVzZXJfaWQiOiIxNzkzNTdiMi1mYzYzLTQyNTctYjE4Yi1hNDIyYjU1N2I3MDYifQ.TAnlHaHgVfyGrX8kHAi-sp_k35-rBzqH1nPiI_6CS9A' \
+  -H 'content-length: 277' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Born window behind avoid where visit high check.","maxScore":68,"minScore":2,"description":"Standard man take technology also various shoulder. Keep provide third whatever. Tonight beautiful simply entire available religious radio measure.","estimatedTime":"9 weeks"}'

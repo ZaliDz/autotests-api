@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjIwLjYwMTY4OCIsInVzZXJfaWQiOiJkNTA4NDZlNi1jNDU2LTQ0OTQtYWEyOC1jMDcyYjQxMGQ5OWUifQ.h2dI-76Aeppi0N3zFmWGuwgSWbjNKpg-eGOq4Dk5ZVs' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Form out program cold cut.","maxScore":75,"minScore":4,"description":"Who improve accept interview data production. Down smile range serve sound.\nKitchen me answer free town suffer.\nFace decision star. Office work argue smile since always able happen.","estimatedTime":"5 weeks","previewFileId":"f5eb3f4f-ad26-417b-b5ff-d0f3e233d6a8","createdByUserId":"d50846e6-c456-4494-aa28-c072b410d99e"}'

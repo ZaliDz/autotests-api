@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjE5LjQyMjI0NCIsInVzZXJfaWQiOiJhYzlkNGMxZi0zYzljLTRjOTctODFlZi1jMGRhOTk1NTExYjMifQ.rhXZLN8aD48EUdDPj8PZ2CPHe29IyKcMrFIVrFFWbWw' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Save structure even for.","courseId":"9593e77c-ba49-4392-86c8-d773d17a97db","maxScore":65,"minScore":28,"orderIndex":29,"description":"Personal manager power rest kind improve. Store do stuff sit.\nEach beautiful instead card investment bit.\nStudent box hundred statement system I.","estimatedTime":"8 weeks"}'

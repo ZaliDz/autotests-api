@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjE2LjgxOTg1NCIsInVzZXJfaWQiOiIwNGRkYTg0Ni1hYzhiLTQ0YTYtYmJkZi1mYjIxNTFhNzNmZDUifQ.lS1Z173u1Lz4IaU44mKbnaTgVPrNTPnNMWYYa68MTyQ' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Woman sort billion performance somebody.","maxScore":82,"minScore":4,"description":"Parent along assume hour. Bag ready discuss race ten green current. Safe safe live rise.\nEntire walk anyone cost public of. Risk administration hear shoulder. Anyone activity poor.","estimatedTime":"1 weeks","previewFileId":"50ecf828-396f-4c9a-870c-5763d2e14a5a","createdByUserId":"04dda846-ac8b-44a6-bbdf-fb2151a73fd5"}'

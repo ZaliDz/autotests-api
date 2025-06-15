@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjIwLjMyOTE4MyIsInVzZXJfaWQiOiI0NjE1Yzk1ZS1jNGNmLTRkNDYtODg5OC0zMDcxMTE1YjMxMmEifQ._GOJ1XMvVCwEw3Yr50JRb6wgnnRGBX1qzXyrnIHs0TQ' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cell rock total very century throw already.","maxScore":67,"minScore":20,"description":"Financial study sister. Treat hold commercial son issue able by. Water peace note give my smile training.","estimatedTime":"3 weeks","previewFileId":"5cab6916-6edb-48f4-836a-6c55807f853d","createdByUserId":"4615c95e-c4cf-4d46-8898-3071115b312a"}'

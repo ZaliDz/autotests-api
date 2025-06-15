@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjE3Ljk2MDk2OCIsInVzZXJfaWQiOiIxNzkzNTdiMi1mYzYzLTQyNTctYjE4Yi1hNDIyYjU1N2I3MDYifQ.TAnlHaHgVfyGrX8kHAi-sp_k35-rBzqH1nPiI_6CS9A' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Far four discover yes heavy standard low.","maxScore":53,"minScore":17,"description":"Throughout kind within fund. Who someone ok item section act side.\nLarge baby season management goal turn street. Order old town them grow.\nNumber accept new family manage push.","estimatedTime":"9 weeks","previewFileId":"46eb92f3-66d9-4d1a-848f-758858b35056","createdByUserId":"179357b2-fc63-4257-b18b-a422b557b706"}'

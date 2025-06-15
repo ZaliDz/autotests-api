@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjE5LjE0ODM0MyIsInVzZXJfaWQiOiJlNTVmMTY1MC05MjI2LTRhZGQtYTM4MC0yMjhhOWJlN2JjYTkifQ.O5Nba8bMlgV8OiRWguZ2ZNy_fTNRIl3k_3cXIgMqJ98' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reflect task since few become center.","maxScore":84,"minScore":15,"description":"Six voice thought enjoy. Maybe shake only practice forget fish.\nBut group land market share which. Audience brother visit lawyer plan response. Western page building for different coach.","estimatedTime":"3 weeks","previewFileId":"151f3163-7e73-40e4-8f31-2aa96c1efe26","createdByUserId":"e55f1650-9226-4add-a380-228a9be7bca9"}'
