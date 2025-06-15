@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjIzOjE1LjU2NTI3NiIsInVzZXJfaWQiOiJlODdlMjg2ZS0wYjZjLTQ5ZWEtYWQ4Mi1jMDRhMTU2NGNlNWUifQ.0iprgNT2lrsybjclnBGT1lHnob2pdzaTF8wVjWboNps' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Maybe stand case.","maxScore":77,"minScore":19,"description":"Drop writer service perhaps. Happy could realize whole daughter.\nKind under relate course. Benefit type race rate card. Attorney stage without learn important.","estimatedTime":"9 weeks","previewFileId":"6ab6079f-21f8-41ac-9d1f-a0073a290d73","createdByUserId":"e87e286e-0b6c-49ea-ad82-c04a1564ce5e"}'

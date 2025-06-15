@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjIzOjE3LjAyOTI4MiIsInVzZXJfaWQiOiI4ODg5MGI1ZC1iMDMwLTQ4MDQtYTgzNC01Y2U2NDE0YzE3Y2YifQ.yfQyndAy0FvdJ57FaG0zHXtdFExVHY37W9lyJ75mf_Q' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Organization always watch ground only lawyer.","maxScore":91,"minScore":22,"description":"Everything morning idea beautiful class very attorney spend. Yes four personal at notice form.\nSize particular while. Way stock up fire but. Dark pay break push training million.","estimatedTime":"10 weeks","previewFileId":"f0d9a8d2-bfc3-4e42-bed5-fe4d1e5ec4b7","createdByUserId":"88890b5d-b030-4804-a834-5ce6414c17cf"}'

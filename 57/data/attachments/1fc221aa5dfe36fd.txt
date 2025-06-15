@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjIzOjE4LjIwNjc1MSIsInVzZXJfaWQiOiJkNDhlYTFlYS1hNGE5LTQ0ZGMtYjEyOC1jYmNjMDNjZGI2YTIifQ.-F7wAuGSMsoTWaWPQAv_lTUlm99Ir80otqcE3c8YHXI' \
+  -H 'content-length: 297' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reach simply operation bad.","maxScore":56,"minScore":29,"description":"Send sing another story. Read article miss eat admit little radio national.","estimatedTime":"4 weeks","previewFileId":"16ce50cf-8aa2-4264-b6aa-d05a4bf78276","createdByUserId":"d48ea1ea-a4a9-44dc-b128-cbcc03cdb6a2"}'

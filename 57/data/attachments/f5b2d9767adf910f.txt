@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjIzOjE2Ljc1NzMwNSIsInVzZXJfaWQiOiI3YjhjMjc3YS1lNGY0LTQ2Y2QtOWI0MS1jODQzYzM4ZThlMTkifQ.OHExLo23OJoYhCKC294LRiLoi-kHQKmxs9_XKraywQ4' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Respond purpose his later any structure.","maxScore":92,"minScore":16,"description":"Individual sort data white edge fight five. Such thought say from daughter way strategy.\nTime explain day.\nWithin ready player director walk officer sure. Identify throw must cultural hope.","estimatedTime":"2 weeks","previewFileId":"d4387d53-a461-41a1-8c55-7b7c2f01ca88","createdByUserId":"7b8c277a-e4f4-46cd-9b41-c843c38e8e19"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/072a3c49-69c7-4407-b9ed-4706128ab56f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjIzOjE1LjU2NTI3NiIsInVzZXJfaWQiOiJlODdlMjg2ZS0wYjZjLTQ5ZWEtYWQ4Mi1jMDRhMTU2NGNlNWUifQ.0iprgNT2lrsybjclnBGT1lHnob2pdzaTF8wVjWboNps' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Adult later increase sing.","maxScore":76,"minScore":27,"description":"Offer also myself try sure kid population. Act head hundred. Line into visit early top quickly west.\nAddress ready choice kind. Bed little miss music radio suggest. Certain door there.","estimatedTime":"8 weeks"}'

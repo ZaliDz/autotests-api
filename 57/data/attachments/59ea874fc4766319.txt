@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjIzOjE2Ljc1NzMwNSIsInVzZXJfaWQiOiI3YjhjMjc3YS1lNGY0LTQ2Y2QtOWI0MS1jODQzYzM4ZThlMTkifQ.OHExLo23OJoYhCKC294LRiLoi-kHQKmxs9_XKraywQ4' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Apply throw ground realize certainly data kid raise.","courseId":"33f2f094-dc1e-4d87-82c9-6f929f9925fb","maxScore":84,"minScore":2,"orderIndex":42,"description":"Difference some understand among left stay wear. Hair price player time dog.\nThus sure Mrs officer mean. Maintain arrive mouth many painting cup. Industry idea school industry other almost.","estimatedTime":"10 weeks"}'
