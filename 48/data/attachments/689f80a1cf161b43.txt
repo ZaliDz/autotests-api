@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE3OjI5Ljk3OTk3NyIsInVzZXJfaWQiOiJlZTFjZThjNy05MzhjLTQ0YzktODY3ZC0yYmNkOWFmNWE4OTkifQ.L4j_h_2zB2E-QUvg9xIrbRei4zIzUJey7uLq-CU0kew' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Live local pick early yeah night teacher.","maxScore":64,"minScore":28,"description":"Follow exist traditional interest. By page more eye lot arm into. Type value play table.","estimatedTime":"5 weeks","previewFileId":"1da9827d-7d74-4638-a635-01100767ea86","createdByUserId":"ee1ce8c7-938c-44c9-867d-2bcd9af5a899"}'

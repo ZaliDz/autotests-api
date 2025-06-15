@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE3OjMyLjk4ODY3NiIsInVzZXJfaWQiOiIxNTYzMWZmYy04Mjc0LTQwNzYtYjNmZS1hNjNjM2RlMTA0NjIifQ.D6rBntDPRI5Y0Bj58ERLfSpN4HBjsQCTorNds7ssMnQ' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prevent event practice speak own.","courseId":"159b1721-f67e-4c13-adc5-207f89fad383","maxScore":75,"minScore":10,"orderIndex":9,"description":"Mission toward forward project reflect court suddenly. Skin move certain good once.\nInformation act author its region quality including. Piece alone control world pull.","estimatedTime":"5 weeks"}'

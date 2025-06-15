@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE3OjMwLjYxMTk4MyIsInVzZXJfaWQiOiJjODE2YTg0NC1kMDg4LTRhZjYtODI2MS1kMzFhYWViN2NmZWEifQ.fuw7ORllF-831PIcoDryWLhgjbjNPwEH79twkN1AUCc' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Picture body hair lawyer four people federal.","maxScore":51,"minScore":22,"description":"Truth deal throughout form.\nFund agree notice around everyone choose beyond keep. We hear fly leave foot probably yet. Last should hope their natural news son.","estimatedTime":"4 weeks","previewFileId":"448b5198-5195-458f-afde-85eed21ce274","createdByUserId":"c816a844-d088-4af6-8261-d31aaeb7cfea"}'

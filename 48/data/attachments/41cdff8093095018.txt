@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE3OjMzLjYwMjA5NyIsInVzZXJfaWQiOiI1MmRhNTg4Ny1kMmViLTRlNzAtODUxMi02Njc1MTk2MjlhNDcifQ.hJXkFH8QGXcMex7omoMwD0cgL8G8BKscsrNf1OLg33w' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Determine include carry run shake.","maxScore":87,"minScore":14,"description":"Couple reveal teacher create. Score number site box president. Church involve side career majority know.\nOutside arrive during score. Modern go test number total model.","estimatedTime":"8 weeks","previewFileId":"67cf7965-8f2d-455f-ad23-7c4572e97b6b","createdByUserId":"52da5887-d2eb-4e70-8512-667519629a47"}'

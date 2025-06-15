@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE3OjMyLjM1NjcxOSIsInVzZXJfaWQiOiI5OTNlODdjNi0yNzgwLTRjN2QtYjQxZC00ZWU1ZjIwNjRhYjIifQ.ObfKu-83F7nTZ57pjZi-COVhh6cMnwT_R1rFF78bv0Y' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Top attention free range out during.","courseId":"8c36ef07-c25a-453f-bdb5-03346afb51ec","maxScore":56,"minScore":1,"orderIndex":83,"description":"Page land upon social practice build. Add American bit pretty few show relationship.\nFly anyone choice watch middle much. Far foreign say magazine institution war language.","estimatedTime":"4 weeks"}'

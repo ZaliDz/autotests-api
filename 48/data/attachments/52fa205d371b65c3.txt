@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE3OjMxLjE5NjA2NSIsInVzZXJfaWQiOiI5YzUwNTVjZi01NWJiLTQwNWUtYTI5MS0wNjE4MzNiOTUyODkifQ.f2M09Lxais2uCn8nqIdVZ4cEGPdjUzxgvwU8jdwZBT0' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Always either consider once evidence play wall.","maxScore":88,"minScore":11,"description":"Fast have simple small color role there. Western nearly model.\nChoice story somebody western. Couple eat trouble her history style. High us break leg mother.","estimatedTime":"7 weeks","previewFileId":"0966e1d0-e7e0-47ed-988f-814a2f8126e3","createdByUserId":"9c5055cf-55bb-405e-a291-061833b95289"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE3OjI5LjM5NTE1NyIsInVzZXJfaWQiOiJlOTRiYjljMS02Yjg4LTRjNTctYTZmNy00ODgxZGFhYmE0NGUifQ.LeOGaQj4G9GdDa_1tjvIPyTTkCbcBBevbvsqOLMiV1M' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"State since help create out.","maxScore":68,"minScore":6,"description":"Store notice carry local should like. Ok raise report whole star start rock. Cover like sort citizen recently onto evening write.\nBase take spend. Crime practice need read party.","estimatedTime":"5 weeks","previewFileId":"d3d82827-a9cd-4654-bd3f-e5de5b349a08","createdByUserId":"e94bb9c1-6b88-4c57-a6f7-4881daaba44e"}'

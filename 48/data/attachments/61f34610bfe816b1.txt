@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/691a086b-a786-4aec-9d48-364ca31e527c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE3OjI5Ljk3OTk3NyIsInVzZXJfaWQiOiJlZTFjZThjNy05MzhjLTQ0YzktODY3ZC0yYmNkOWFmNWE4OTkifQ.L4j_h_2zB2E-QUvg9xIrbRei4zIzUJey7uLq-CU0kew' \
+  -H 'content-length: 266' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Arm garden answer leader establish.","maxScore":78,"minScore":16,"description":"Discover live experience space week.\nWorld former field before center enjoy carry. Material democratic break positive heavy past possible partner.","estimatedTime":"10 weeks"}'

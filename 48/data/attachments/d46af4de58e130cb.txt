@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE3OjMyLjk4ODY3NiIsInVzZXJfaWQiOiIxNTYzMWZmYy04Mjc0LTQwNzYtYjNmZS1hNjNjM2RlMTA0NjIifQ.D6rBntDPRI5Y0Bj58ERLfSpN4HBjsQCTorNds7ssMnQ' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pay network improve stuff.","maxScore":88,"minScore":6,"description":"Who ever remain computer. As citizen network energy. Special oil use laugh woman.\nCultural by car various say technology. How best painting want.","estimatedTime":"6 weeks","previewFileId":"2cd43bcd-e534-4dc5-bfd3-6fcdd00d0b65","createdByUserId":"15631ffc-8274-4076-b3fe-a63c3de10462"}'
