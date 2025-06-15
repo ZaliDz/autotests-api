@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjM4Ljc3MzQ4MiIsInVzZXJfaWQiOiIxZjkwMTA4Ny00NTc1LTQxZjItYmUzMy1lZDdhMzkwZWViZGYifQ.ztRsQiExR-ub1mrJMb-XuJStSug1VNROJSVz6WVSaoE' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Standard consumer practice ok help learn.","maxScore":86,"minScore":8,"description":"All single state forget how job. Performance she statement president trouble seem. North young continue.\nRelationship even thing seven drop realize. White table building situation husband.","estimatedTime":"4 weeks","previewFileId":"b8e8889b-ebc1-4e99-a169-00c747250edd","createdByUserId":"1f901087-4575-41f2-be33-ed7a390eebdf"}'

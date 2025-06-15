@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjM5Ljk5Mjk5MCIsInVzZXJfaWQiOiI0NTE5MmI0Mi1kYWNkLTRkZWYtODkxZi1hMmVhOTJkMDkzYTUifQ.7Gk51-n6fZyXzlTv7CEv6P6SnHo_RttxOZhOuI7TVIc' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Company community successful meeting morning guy rest floor.","maxScore":85,"minScore":12,"description":"Evidence detail machine strategy order black unit. Wonder speak away bit field. Policy early much language.","estimatedTime":"8 weeks","previewFileId":"adca384c-d139-4750-94a0-f24aa4f680cb","createdByUserId":"45192b42-dacd-4def-891f-a2ea92d093a5"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/0275ce2a-2b30-42f1-83b6-ff34ff007a64' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjM3LjU2MjQwOCIsInVzZXJfaWQiOiJkOGQ5MzY4MC01OTdiLTQ3YzEtYjFmNS0yMzM3MjNhZjg1NmEifQ.TsNRy4C1vv72rf7ibUioJir3kjTw-pOcu1YGxeBG4Go' \
+  -H 'content-length: 223' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mind option performance.","maxScore":83,"minScore":2,"description":"Deal number avoid sort. Everybody appear meeting part personal action. Animal everyone hear down single model sister.","estimatedTime":"2 weeks"}'

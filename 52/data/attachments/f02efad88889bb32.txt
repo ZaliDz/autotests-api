@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjQwLjU3NDUyMSIsInVzZXJfaWQiOiI0MDdiOWZmZS0wNzhmLTQ2NGMtYTNhNy0zZWI2Mzk2OTAwNDIifQ.WyR-JOZMJKBCC1jaVUp2Kzp1M48oqRTiO5CqGzayxss' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Else respond shake space against quality system.","maxScore":71,"minScore":25,"description":"Truth walk usually class analysis. Door claim person yourself risk discussion peace if.\nStandard coach while sort television. Hard out husband how sort seek.","estimatedTime":"1 weeks","previewFileId":"b20f2981-0bbf-4b6e-8e10-6ab5b5875f69","createdByUserId":"407b9ffe-078f-464c-a3a7-3eb639690042"}'

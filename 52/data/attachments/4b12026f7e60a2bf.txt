@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjQxLjI0NDkwOSIsInVzZXJfaWQiOiJmYTBhYmQ1OS0xNzczLTQyNDQtYjFlNS1lMzU0ZWE4MzVmNjcifQ.qRyocrRo6Zdtxt3iD0TZLbZahwlYzUF4BFiNwYSrjxc' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Buy sit north report a type son.","maxScore":55,"minScore":25,"description":"Front this through book character item. Occur respond sound art itself. Free activity buy sit doctor treatment.","estimatedTime":"10 weeks","previewFileId":"cb0d7d33-587e-4b57-9a96-fc1bd72aed5f","createdByUserId":"fa0abd59-1773-4244-b1e5-e354ea835f67"}'

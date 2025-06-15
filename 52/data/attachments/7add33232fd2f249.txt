@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjM2Ljk3MzYwNyIsInVzZXJfaWQiOiJkNDc2YjZmMy1jMjE0LTQyOWEtOWEwNC03OTU0N2MxOWRkMWMifQ.xlBOJvjzxnKCjk7gUAJNLJFb4DxyRVpGMsu-jPbiyIA' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Party apply lot sell every official husband future.","maxScore":84,"minScore":9,"description":"Respond station hour mission rise cut box. Play during every theory occur us those. Fall card moment.\nSerious station card attack way nice send middle.","estimatedTime":"10 weeks","previewFileId":"afd385a8-ba2c-4bee-bd32-6c930c33179e","createdByUserId":"d476b6f3-c214-429a-9a04-79547c19dd1c"}'

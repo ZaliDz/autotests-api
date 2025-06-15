@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjM4Ljc3MzQ4MiIsInVzZXJfaWQiOiIxZjkwMTA4Ny00NTc1LTQxZjItYmUzMy1lZDdhMzkwZWViZGYifQ.ztRsQiExR-ub1mrJMb-XuJStSug1VNROJSVz6WVSaoE' \
+  -H 'content-length: 297' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Machine public book table stay worry.","courseId":"d80cdc5a-df7c-44ea-9fe9-65aef55fc1ce","maxScore":74,"minScore":5,"orderIndex":2,"description":"Who event decide black. Southern lawyer organization seat option like. True company road free others anyone arm.","estimatedTime":"10 weeks"}'

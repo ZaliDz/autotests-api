@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjM5Ljk5Mjk5MCIsInVzZXJfaWQiOiI0NTE5MmI0Mi1kYWNkLTRkZWYtODkxZi1hMmVhOTJkMDkzYTUifQ.7Gk51-n6fZyXzlTv7CEv6P6SnHo_RttxOZhOuI7TVIc' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Necessary all think public mention.","courseId":"a8cef135-9e0c-46b1-ac88-b7ebf5e5e0ae","maxScore":58,"minScore":22,"orderIndex":24,"description":"View like section vote weight detail country. War party play prove central. Training arrive capital material.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjM5LjM2MDAxNSIsInVzZXJfaWQiOiJiNDkxNThjYy1kODFmLTRmYzctOTlmNy0yODVhYjVmZjhjNGYifQ.RfowwOaThcNIWElpNCmiRRumhZDxYqPn9mmbFhEr_6g' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Matter company benefit everybody soon remain wrong.","maxScore":84,"minScore":25,"description":"Knowledge stop property wish. Report board catch store owner offer must. Single arrive become magazine.","estimatedTime":"4 weeks","previewFileId":"cc2df2ec-0212-4e0e-a404-62cb2c2e4ff6","createdByUserId":"b49158cc-d81f-4fc7-99f7-285ab5ff8c4f"}'

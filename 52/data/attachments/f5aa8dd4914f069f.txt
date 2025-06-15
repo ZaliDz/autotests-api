@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjQwLjU3NDUyMSIsInVzZXJfaWQiOiI0MDdiOWZmZS0wNzhmLTQ2NGMtYTNhNy0zZWI2Mzk2OTAwNDIifQ.WyR-JOZMJKBCC1jaVUp2Kzp1M48oqRTiO5CqGzayxss' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Billion born card someone factor easy.","courseId":"fb4be668-28c7-44ad-bcfd-f262eab182dd","maxScore":93,"minScore":15,"orderIndex":44,"description":"Thousand movement hear. Relate usually few upon world part. Tree clearly response remain artist heart.\nAll board add authority social sport list concern.","estimatedTime":"1 weeks"}'
