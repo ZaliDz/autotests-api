@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjM5LjQ3MDA3MCIsInVzZXJfaWQiOiI3MTg3NGI2My1mNDY0LTQwNTEtOGZiOC03ODZmOTI0ZmU5NzkifQ.ndva2UmA3qZFGEPo9knoj-GGJTokRYTGmPDAwizmzFo' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Organization the conference majority all item.","maxScore":82,"minScore":20,"description":"Operation put organization total bill second. Tree bill commercial skin myself beautiful option his.","estimatedTime":"9 weeks","previewFileId":"4dcf882f-fe2f-4f47-bdb6-36bef856ec15","createdByUserId":"71874b63-f464-4051-8fb8-786f924fe979"}'

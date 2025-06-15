@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjQxLjg0NTQwOSIsInVzZXJfaWQiOiI2ZDlmZjllMS1iMjIwLTQ5OWUtYTU0Yi03MmNmOTMyMWY3NWQifQ.-NDnV6lxDeoeneCpa8REavouIdSeuYcDf0pqvEPibUk' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Explain without hit institution.","maxScore":74,"minScore":1,"description":"Summer attorney either return everybody structure. Either rule allow reason daughter.\nChild important some as collection power. Couple cover knowledge door medical economy seat.","estimatedTime":"6 weeks","previewFileId":"741a9114-5deb-45c4-a17e-ef5e17534b37","createdByUserId":"6d9ff9e1-b220-499e-a54b-72cf9321f75d"}'

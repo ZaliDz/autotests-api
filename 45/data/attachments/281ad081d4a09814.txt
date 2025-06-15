@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjQxLjU3MjI1MSIsInVzZXJfaWQiOiJhZWU1ZDNiNS04OTgwLTQyYjAtYjFhOS1kOTZmMDZjOTYyMDcifQ.mPmoPW1KjH_wmStKgwma8FKysA0rEEqZPS5Jzp_lsrA' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Federal cold air day hotel smile form.","maxScore":97,"minScore":30,"description":"Let wife store when dog other. Short economy wait sea politics entire use. Many both have ok.\nImprove recent former treatment degree would be. Artist play stand activity.","estimatedTime":"1 weeks","previewFileId":"fb4b15f0-f611-40bd-86dc-2d13f51c7fd8","createdByUserId":"aee5d3b5-8980-42b0-b1a9-d96f06c96207"}'

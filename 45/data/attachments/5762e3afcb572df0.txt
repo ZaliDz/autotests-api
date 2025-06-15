@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjQxLjU3MjI1MSIsInVzZXJfaWQiOiJhZWU1ZDNiNS04OTgwLTQyYjAtYjFhOS1kOTZmMDZjOTYyMDcifQ.mPmoPW1KjH_wmStKgwma8FKysA0rEEqZPS5Jzp_lsrA' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Later television only during operation.","courseId":"80a850e3-50bd-499b-bb24-a0d214a70d01","maxScore":58,"minScore":21,"orderIndex":10,"description":"Hundred just heavy chance give. Least contain let station question prepare glass. Lot woman section later indicate present.","estimatedTime":"9 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjQwLjY2MTQ1NCIsInVzZXJfaWQiOiJjNTlmOGI0YS04MTQ2LTQ3NWQtYWY4MS1mZWMxYWIyZjIxODQifQ.b5sK5uVBRaZdAgJqsSD5DGIrCP1eoOWIUykXvhFrfdk' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trip maintain experience take sport loss coach.","maxScore":91,"minScore":13,"description":"Surface do about. Three impact consider join soldier usually.\nStrategy news live air might. Officer everyone return home teach government.","estimatedTime":"6 weeks","previewFileId":"f6413063-19b1-431b-9e7c-ce4b1467ff12","createdByUserId":"c59f8b4a-8146-475d-af81-fec1ab2f2184"}'

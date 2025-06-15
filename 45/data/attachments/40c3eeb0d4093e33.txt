@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjQwLjM4NzI0OCIsInVzZXJfaWQiOiIxODJkMjg2Ny03NTk4LTQ1ZjktODRhYi0xNzY2YWRmZWY2MjcifQ.ccPpQVIPNfP4EfBqxts8fpglNlWs4lxjRkKaQ4dO2gY' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thing Republican laugh enjoy get.","maxScore":77,"minScore":15,"description":"Life garden because bed box debate town. Weight appear wrong physical. Citizen you network sit.","estimatedTime":"7 weeks","previewFileId":"412bfafa-6f94-44ba-8461-f51919221e29","createdByUserId":"182d2867-7598-45f9-84ab-1766adfef627"}'

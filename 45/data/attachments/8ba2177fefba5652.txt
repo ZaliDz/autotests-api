@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjQyLjUxNTM1MSIsInVzZXJfaWQiOiJkMTA5NzkzZC0wZmFmLTQzMDEtOWU4Ni0zMjM0MDM1YWM4YTgifQ.7jQTF0NvS047K8ccBlo6vw07ApUaVXmHRrTcDH0I4TU' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Send itself time Mrs expect deal bit.","courseId":"aa7f880b-bf5c-4769-9161-7da958d3de7c","maxScore":57,"minScore":1,"orderIndex":50,"description":"Light benefit left section. Realize stuff since case Mrs change.\nInterview note thing body under bill outside member. Protect crime ago similar plan.","estimatedTime":"4 weeks"}'

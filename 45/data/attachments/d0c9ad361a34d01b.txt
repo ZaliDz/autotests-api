@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjM5LjE5Njk3MyIsInVzZXJfaWQiOiI0YjViN2ViMC1iMGZlLTQ5ZmQtYjkwOS05ZTkxYzdjMjI5NzgifQ.56Ax8QNV7DENzt7iO3B9F4o4tRFvdRa6P6q8gz2s8hw' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Matter evidence others at according miss professor white.","maxScore":72,"minScore":9,"description":"Area week threat consumer would. Alone would system six. Government possible tell bit minute you morning. Window very describe trip finish.","estimatedTime":"7 weeks","previewFileId":"2445a4c4-e7b4-4802-9654-115a4483e58b","createdByUserId":"4b5b7eb0-b0fe-49fd-b909-9e91c7c22978"}'
