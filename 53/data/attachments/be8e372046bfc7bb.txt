@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE5OjA1LjUxNDg5OSIsInVzZXJfaWQiOiI5YmY2ZTJmYi05NGQxLTRhNWQtYWQwZS0zMGVkNjQxYTMyNmUifQ.Ta8POoWrVD_XUN8WnYiG2LverwSMyyncK3VZ1y4BMeE' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hard economy natural hot project.","courseId":"027cb0f3-f73d-48b2-8fe6-a7dda545b628","maxScore":99,"minScore":15,"orderIndex":29,"description":"Necessary fish appear site season economic among. Run member fire to someone middle personal.\nAccording think image least give street. According system newspaper car.","estimatedTime":"2 weeks"}'

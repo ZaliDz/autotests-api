@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE5OjA0LjkzMDQzNyIsInVzZXJfaWQiOiIyYmM5ODNmMi00ZjBiLTQxZWItYmEzMC1mNTVjYmU4ODlmZWQifQ.AZQpmtdoe2Cwz0BvK7MaYpNah7xRHAiSbdQYjUy1SK0' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Public live senior center along safe we.","courseId":"7af96c4c-8a75-4a32-9b43-730584ff67b1","maxScore":72,"minScore":10,"orderIndex":48,"description":"Wife behavior successful economic reveal ahead fill. Three defense information too piece student available. Sell imagine southern easy race standard among.","estimatedTime":"4 weeks"}'

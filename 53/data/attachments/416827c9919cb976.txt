@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE5OjA2LjE0OTEwNSIsInVzZXJfaWQiOiIyNDc2MThlMS0xZmI0LTRhNDItYmNhNC1mZGYyMzJhN2RlYTUifQ.MDKDdP5fhm18qGsVgsKp_7B-iYuIPx9dt3M3ZymnazE' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"My training want.","maxScore":93,"minScore":3,"description":"Behind social speech event staff increase plant. During mother yes one part on. Administration dream bed produce never offer.","estimatedTime":"10 weeks","previewFileId":"0865030c-5af0-47b7-b15f-37d4a9c81005","createdByUserId":"247618e1-1fb4-4a42-bca4-fdf232a7dea5"}'

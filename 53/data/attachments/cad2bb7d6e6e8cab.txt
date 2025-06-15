@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE5OjA1LjUxNDg5OSIsInVzZXJfaWQiOiI5YmY2ZTJmYi05NGQxLTRhNWQtYWQwZS0zMGVkNjQxYTMyNmUifQ.Ta8POoWrVD_XUN8WnYiG2LverwSMyyncK3VZ1y4BMeE' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Say capital local.","maxScore":87,"minScore":20,"description":"Walk challenge plan name. Action item property west opportunity bring ahead.\nThank care beautiful red meeting.\nPoor score institution discover tough purpose. Method teacher build return.","estimatedTime":"5 weeks","previewFileId":"6b7da850-a08a-48f2-8e67-97489c27027d","createdByUserId":"9bf6e2fb-94d1-4a5d-ad0e-30ed641a326e"}'

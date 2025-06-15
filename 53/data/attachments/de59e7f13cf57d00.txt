@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/194bc3f9-7c3d-4311-8ace-08ee5ae18828' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE5OjAzLjEyNDk2MCIsInVzZXJfaWQiOiJkODdiMmMxNS00MGJkLTQ5NGUtYjdlYS0yNjBiY2YzMjZkMmIifQ.M_1FLAey884UaMYxQ4QOBJ-7ycgwjrmQfdpH_QpYku8' \
+  -H 'content-length: 252' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Every check traditional those part.","maxScore":99,"minScore":29,"description":"Alone catch whatever. Figure huge thank accept.\nTraditional close wish fly hot east. Health beat place cost possible expect section.","estimatedTime":"10 weeks"}'

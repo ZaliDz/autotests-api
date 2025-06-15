@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE5OjA0LjkzMDQzNyIsInVzZXJfaWQiOiIyYmM5ODNmMi00ZjBiLTQxZWItYmEzMC1mNTVjYmU4ODlmZWQifQ.AZQpmtdoe2Cwz0BvK7MaYpNah7xRHAiSbdQYjUy1SK0' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Position her reason too behind.","maxScore":84,"minScore":15,"description":"Discussion step use state top itself each. Drive commercial seven way citizen. Test friend yeah tell level these base black.","estimatedTime":"9 weeks","previewFileId":"5cc4f342-7f34-4006-9bed-002f6d98991a","createdByUserId":"2bc983f2-4f0b-41eb-ba30-f55cbe889fed"}'

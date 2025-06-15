@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE5OjA0LjM0NjQxMiIsInVzZXJfaWQiOiI2NTA3YTQyOC0wNjVhLTRkMWMtOWViMy1hMjFlOWY2NzdhYmEifQ.0YE3qu4Pluh0G1R732jF3yi4mhHq91dgEPGwrp60fL4' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Forward great dream adult positive attorney.","maxScore":61,"minScore":21,"description":"Recognize sing sound beat sit four. Right information traditional city religious identify. Show institution attention radio argue detail. These pretty peace current.","estimatedTime":"10 weeks","previewFileId":"5100cb45-083b-4f52-befa-1ee799bbbb9b","createdByUserId":"6507a428-065a-4d1c-9eb3-a21e9f677aba"}'

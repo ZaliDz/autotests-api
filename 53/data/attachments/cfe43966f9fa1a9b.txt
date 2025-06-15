@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE5OjA2Ljc3MTk3NiIsInVzZXJfaWQiOiIwZTQxMGYzYy1lNDYzLTQ0YmUtYjM3NS05NWZmMWExZDcyMmMifQ.uKwX1k3Ple7a-8L4PPI4nqqA2qSXlBwduaI76ONuteU' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Plant street center general attorney.","maxScore":75,"minScore":9,"description":"Least of enjoy concern building while. Trip among only message skill. Over beat station drug level painting.","estimatedTime":"10 weeks","previewFileId":"29e0ef9e-da17-460d-9e98-b97f10678fd5","createdByUserId":"0e410f3c-e463-44be-b375-95ff1a1d722c"}'
