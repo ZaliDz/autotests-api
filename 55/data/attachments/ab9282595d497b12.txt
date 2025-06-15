@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE5OjQ4LjQ5OTYwNCIsInVzZXJfaWQiOiJkMmVmOTQwYy1kOTQ0LTQxYzctYmEzYy1iYjdkOWUwNzA3OGEifQ.78Ms8VnHLFcwiousloqaMylAnAil4oFmqRlUHzlJgjw' \
+  -H 'content-length: 289' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Film toward responsibility get writer treat.","courseId":"fa977d13-f249-4868-98ec-0d03713f19a1","maxScore":69,"minScore":23,"orderIndex":97,"description":"Seven again despite main view finish see. Window oil apply. Toward risk attorney TV talk amount.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE5OjQ3LjgyODc1OCIsInVzZXJfaWQiOiI5YjU5NDBiYS0zNTllLTQyYTMtOTI1OS05NjRjNDM0MzI5MGMifQ.Yb0cj8kBM-R0tu2LgvGEgr4EMYSpcW9HF8QHgSupcKU' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Box although conference reality.","maxScore":83,"minScore":5,"description":"Which color kind middle skin. Away again trade policy treat contain. Identify research hand both line night whom. Sister job response.\nEvening get garden have let dream describe.","estimatedTime":"5 weeks","previewFileId":"819c0923-2751-44c0-a692-6257b680457f","createdByUserId":"9b5940ba-359e-42a3-9259-964c4343290c"}'

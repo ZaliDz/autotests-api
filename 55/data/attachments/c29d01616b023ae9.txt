@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE5OjQ2LjY1NTAyNSIsInVzZXJfaWQiOiIyZGExMzQ3MC1kNjAxLTQ1YjItOGRjOC1kNmY4ZjczMzZkNGMifQ.rNaeAZsNYqi8uHcD5IYQH5CGw2PSsb7p9VSRJoYVjys' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Increase away trade both we.","maxScore":85,"minScore":28,"description":"Spring describe wife wrong country population.\nFew everyone enjoy. Energy attorney back talk feel.\nSon bag every building could approach. Figure real color must.","estimatedTime":"3 weeks","previewFileId":"d6da0058-5a6b-4b0f-bbb0-1982b892890e","createdByUserId":"2da13470-d601-45b2-8dc8-d6f8f7336d4c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE5OjQ2LjM4MzIxNiIsInVzZXJfaWQiOiJkMzRiODcyNy1iNjdjLTQ2ZjYtYjEwYy04NzQ0NTE0OGQ1NWQifQ.Jz6kHkwik2uDKJy6LKoBmfLf-NQP9H2k2xhgFuaRPWM' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Find enough south nation cause.","courseId":"5c88c948-8386-4630-8737-10d1325d3581","maxScore":98,"minScore":23,"orderIndex":77,"description":"Back military this go throughout forget garden Congress. Western seek manage or his. Message newspaper exist player skin.\nResult glass world simple worker ever hear.","estimatedTime":"3 weeks"}'

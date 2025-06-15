@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE5OjQ2LjM4MzIxNiIsInVzZXJfaWQiOiJkMzRiODcyNy1iNjdjLTQ2ZjYtYjEwYy04NzQ0NTE0OGQ1NWQifQ.Jz6kHkwik2uDKJy6LKoBmfLf-NQP9H2k2xhgFuaRPWM' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Company wall again none detail voice.","maxScore":100,"minScore":14,"description":"Recognize current describe upon care. Suffer because stage not religious themselves wife. Through out have bag his staff.\nVisit add night beat else. Nation small building consumer.","estimatedTime":"2 weeks","previewFileId":"e98405b0-f1e2-4413-a9b3-1c4643a620c3","createdByUserId":"d34b8727-b67c-46f6-b10c-87445148d55d"}'

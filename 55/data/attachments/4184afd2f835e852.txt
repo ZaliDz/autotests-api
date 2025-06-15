@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE5OjQ3LjU1NTYwMiIsInVzZXJfaWQiOiI3NDg1MDkzMS0zNjFlLTQ5NDktYTVhOS1lYmRhYjMwMTMwNDgifQ.zoZe6mpg5kiqE94FbE3pWoVVAF8Qoo7NK-UH5cSktok' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Environment system somebody score floor media official.","maxScore":89,"minScore":14,"description":"Gun animal though campaign also interest. Chance home start pay usually space. Pass leg view level activity significant.","estimatedTime":"6 weeks","previewFileId":"7aaef02c-b2c1-4132-97f5-f947c77a910c","createdByUserId":"74850931-361e-4949-a5a9-ebdab3013048"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE5OjQ0LjkzMTU5NSIsInVzZXJfaWQiOiIzZDM5YzdlMy1hNDk0LTQ4MTgtOGY1ZC1kZDFkZjdkOWExZTYifQ.EXDJ-Fy5uNnwQH8zempW4zNILm9aUleOTfrMe0fJDsg' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Serve similar foot audience unit read religious floor.","maxScore":51,"minScore":22,"description":"Boy dinner theory summer under hour. Upon there traditional director.\nRole keep bag evening. His grow when wish seek.","estimatedTime":"1 weeks","previewFileId":"0a227f96-6456-4223-a95c-d5def5326509","createdByUserId":"3d39c7e3-a494-4818-8f5d-dd1df7d9a1e6"}'
