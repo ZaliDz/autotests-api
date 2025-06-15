@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjMzLjY5MzEwMyIsInVzZXJfaWQiOiJhMzZiOTU3ZC1iOTE5LTRmNjEtYTQ4OS00MWE3NTQzODY5MWYifQ.vyaxWoFSyrWYwRJyGouCGViTjSGkDUVPs0BPW7X8gi4' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Anyone himself lot establish card.","maxScore":70,"minScore":23,"description":"Around figure if human natural none. Girl reduce art particular source must. Support name protect forward task get current.","estimatedTime":"4 weeks","previewFileId":"9cd3e691-70da-43fb-bb19-6c0e02f2ef96","createdByUserId":"a36b957d-b919-4f61-a489-41a75438691f"}'

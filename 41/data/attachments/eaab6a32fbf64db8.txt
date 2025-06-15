@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjMyLjUwMzg2NSIsInVzZXJfaWQiOiIwNjM2ODU0Yy03YWIwLTRlYmEtOTg0My1jN2Y2MGE4MzMyYTMifQ.u2C6TLZSNleQjP9CG4OUmulyDBkUc8kLmYrdgCRr0oY' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Finally until site trouble guy usually.","maxScore":91,"minScore":9,"description":"Small stock plant watch have and support. Group role book even director pick him debate. Light character stuff young million life finally.","estimatedTime":"6 weeks","previewFileId":"ff322d74-b71c-4367-94b4-afd5696d05df","createdByUserId":"0636854c-7ab0-4eba-9843-c7f60a8332a3"}'

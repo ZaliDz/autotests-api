@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjMwLjc3MzA1MyIsInVzZXJfaWQiOiI2Yjk2YjQ0Ni0yMzM3LTQzODgtOTFkMy1iMzI1YWJlYzY0MGMifQ.U7GjFX0OL5qROjrxph9Bg9iN6MFspqCle7PtXq4EiM4' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seven scene her rich company.","maxScore":73,"minScore":27,"description":"Painting later respond spend range life. Should identify defense stay paper next. You hear produce follow sure.\nDevelopment compare debate. Artist rise that tree attention subject stay.","estimatedTime":"1 weeks","previewFileId":"c1d7852b-61b6-497c-96fb-3f2f66c92340","createdByUserId":"6b96b446-2337-4388-91d3-b325abec640c"}'

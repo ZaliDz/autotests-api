@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/783d4fc7-823e-4bde-a441-6a292ee64a4d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjMwLjc3MzA1MyIsInVzZXJfaWQiOiI2Yjk2YjQ0Ni0yMzM3LTQzODgtOTFkMy1iMzI1YWJlYzY0MGMifQ.U7GjFX0OL5qROjrxph9Bg9iN6MFspqCle7PtXq4EiM4' \
+  -H 'content-length: 297' \
+  -H 'content-type: application/json' \
+  -d '{"title":"World continue member.","maxScore":65,"minScore":8,"description":"Each suddenly consumer look less. Because east response. His another sing weight nation gas I. Once share red religious thus care buy.\nCommunity interesting particularly. School eye wife name.","estimatedTime":"1 weeks"}'

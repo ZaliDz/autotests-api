@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjI5Ljg5MTI3NCIsInVzZXJfaWQiOiJmZDg0YjEzMy1hOTQ1LTQxZGEtODM3Yy02ZDA2ZjFkZmJlOWMifQ.ccuePE3DB2Ahpwi15lXTLhKaw9c902ihMyg8e0sq2MU' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bad population experience run ground five property.","maxScore":95,"minScore":8,"description":"Six stage professional win over man. Trouble why radio reveal administration spend miss. Best gun total discover.","estimatedTime":"4 weeks","previewFileId":"3a934f32-2fb4-40bd-b186-c078b5b3b305","createdByUserId":"fd84b133-a945-41da-837c-6d06f1dfbe9c"}'

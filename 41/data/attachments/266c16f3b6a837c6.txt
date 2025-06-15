@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjMxLjM1ODQ0MCIsInVzZXJfaWQiOiJjMjMzYTE5Yy05OTA4LTQ2M2EtYTEwYy05Y2VhYjZmMDcwZDkifQ.eqr10cdyRHxC2Cueisc_cNcjGeKaITXDR1ETEF2jQuw' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Laugh and choice rather behind check live.","maxScore":83,"minScore":16,"description":"Boy process happy try five a forward performance. Enjoy position agreement he war particularly others. Billion record sing I guy teacher.","estimatedTime":"10 weeks","previewFileId":"6b90b246-80ed-44c1-809d-988ebac10b21","createdByUserId":"c233a19c-9908-463a-a10c-9ceab6f070d9"}'
