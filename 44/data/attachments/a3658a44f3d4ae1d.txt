@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjI0LjYwODQ0MCIsInVzZXJfaWQiOiIxMDQwNDUzNy05OGQzLTQ1MDAtYmM1OS1iZWRkNjIxOTMwMGQifQ.qbgtyInbAYMtxPOSgyHGiHyrclSMuo9y9JXcwogwlxc' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Town north get story management.","maxScore":56,"minScore":18,"description":"Do cover price candidate small ago. Information strong charge Republican real bit easy. Travel former set so possible executive free significant.","estimatedTime":"8 weeks","previewFileId":"240425d7-d8af-4a3a-ad5b-72c767556b3d","createdByUserId":"10404537-98d3-4500-bc59-bedd6219300d"}'

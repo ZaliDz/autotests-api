@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjIzLjM2OTE1NCIsInVzZXJfaWQiOiI0N2Q1NGQwYi05ZDdhLTQ0MTgtOGIwOS1mNTdjMjRiYTg1ZGIifQ.S5WWO7FI7iY9hVqpb7y0J0fIzaI8b-Dx6OXJasRcnVI' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Large memory task community ahead big.","maxScore":67,"minScore":18,"description":"Their majority leave senior with meet. Affect traditional white president.\nEvening realize piece movie sea. East trip somebody year until coach call.\nGet hour really big western past beautiful.","estimatedTime":"8 weeks","previewFileId":"1e571978-27da-47d5-9d7a-379371cb6d3d","createdByUserId":"47d54d0b-9d7a-4418-8b09-f57c24ba85db"}'

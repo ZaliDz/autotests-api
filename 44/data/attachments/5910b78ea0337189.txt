@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjIwLjM5NDMyNCIsInVzZXJfaWQiOiI0ZWJmZDZjZS0xODhjLTQ2YWItODBmOS01YjZkMmMyYmY1NGYifQ.WQn7r5QITvabHNjBtDbubQGcIFcH5iQCV73kMfT-Dv0' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Understand source can.","maxScore":78,"minScore":4,"description":"Possible response degree good ten their surface. Wrong audience use blue number. Job yourself end.\nToday check either detail soon than force. Behind goal when.","estimatedTime":"3 weeks","previewFileId":"bf720e13-0637-4c2a-8fee-774ec9b89fd2","createdByUserId":"4ebfd6ce-188c-46ab-80f9-5b6d2c2bf54f"}'

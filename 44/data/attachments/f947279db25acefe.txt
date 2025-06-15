@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjIwLjk3NTQ5NCIsInVzZXJfaWQiOiJhMzZlYzlkYi02ZDYwLTRkNTctYjE2YS03YzJiY2EzYzhmMDkifQ.hNrg0_RIFYS2REY183w30wa2CK9JCXVK55NtTwrX-pc' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fall most respond surface thing.","maxScore":75,"minScore":6,"description":"Six him human minute. Defense sell nature upon case model her.\nScience let alone more either return. Bad apply use have process section.","estimatedTime":"1 weeks","previewFileId":"277cbb42-567d-4a36-8abe-d3b553045b6f","createdByUserId":"a36ec9db-6d60-4d57-b16a-7c2bca3c8f09"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjIzLjM2OTE1NCIsInVzZXJfaWQiOiI0N2Q1NGQwYi05ZDdhLTQ0MTgtOGIwOS1mNTdjMjRiYTg1ZGIifQ.S5WWO7FI7iY9hVqpb7y0J0fIzaI8b-Dx6OXJasRcnVI' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Explain others popular fish become unit boy friend.","courseId":"8c19da64-f996-4e01-93aa-98abb77b47e3","maxScore":88,"minScore":6,"orderIndex":47,"description":"Citizen involve off central special. Institution technology nice away.\nHospital free audience indicate painting thought responsibility democratic. Drug run consumer share.","estimatedTime":"2 weeks"}'

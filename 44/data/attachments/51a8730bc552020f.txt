@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjIyLjc4NTQ1NiIsInVzZXJfaWQiOiJkODc2NmMzMy1lZTEwLTQwMGItYTA0Mi1lMWJiZWM4Y2I1MWIifQ.qrvhG2g33gI2D4_VMygctn9pb9PcRFp0aXxQW0BFQ2A' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cultural view marriage side carry back.","maxScore":93,"minScore":8,"description":"Want gun school finally continue together ever. Professional bank interesting.\nView suffer front single down only. Interest one act grow boy than above.","estimatedTime":"7 weeks","previewFileId":"c012db4f-c0a3-40ea-8dd1-cc7f0cae4e9e","createdByUserId":"d8766c33-ee10-400b-a042-e1bbec8cb51b"}'

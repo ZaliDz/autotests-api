@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjIyLjE5NzQzOCIsInVzZXJfaWQiOiJlNmY5NDI0Ny1hMTdkLTRiOTQtOGNjMS0zYmRhYzcxMDk5ZDkifQ.w4yy_MvaNukkuxqCjda1PSX-NEzvNlPEIdx7xex4QvU' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Choice sell exist lot.","maxScore":73,"minScore":13,"description":"War red religious movement class. Simple dream true at. Prevent expect research pull raise.\nWait think life radio. Win mouth improve science among. Leg evening exist since probably cold last.","estimatedTime":"3 weeks","previewFileId":"8b111230-abca-4fe2-9163-c0678ad81160","createdByUserId":"e6f94247-a17d-4b94-8cc1-3bdac71099d9"}'

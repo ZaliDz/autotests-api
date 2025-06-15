@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/66b30360-0cca-425d-8844-6371799d0c97' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjIwLjk3NTQ5NCIsInVzZXJfaWQiOiJhMzZlYzlkYi02ZDYwLTRkNTctYjE2YS03YzJiY2EzYzhmMDkifQ.hNrg0_RIFYS2REY183w30wa2CK9JCXVK55NtTwrX-pc' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Along radio expert people exactly each.","maxScore":99,"minScore":18,"description":"Civil feel campaign note compare. Board left position ahead. Light paper environmental shake more night one.\nAs show them body fill question clear. Media population brother. Quality history claim.","estimatedTime":"6 weeks"}'

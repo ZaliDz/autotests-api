@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjI0LjAwMjM0MiIsInVzZXJfaWQiOiJlMDM0NWZmYy1jM2ZlLTQ4MmQtYmE3Mi0yMTVlNDZhZDM4MWMifQ.lf2q9gKe6OBjWPw1ztt3TUhkFBpVN-WEU7E-TAQoG3Y' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agent suggest action water side.","maxScore":81,"minScore":29,"description":"Manage law back personal debate establish. Society technology change join meet player.\nFew by administration project end performance garden.\nResponsibility skin order similar improve.","estimatedTime":"3 weeks","previewFileId":"2d028838-e9b9-473f-9554-294d1c7cc0e9","createdByUserId":"e0345ffc-c3fe-482d-ba72-215e46ad381c"}'

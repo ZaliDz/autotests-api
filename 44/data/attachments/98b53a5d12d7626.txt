@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjIxLjYyMjU0NCIsInVzZXJfaWQiOiJmYWZjZjllMS0wMjE1LTQzNTctYTM3MC0wODNhOTAwODhkMDEifQ.LIFgt0k8UfR87FszXp_iI_51btlR-0oYWZ5x8HDsG7A' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Itself usually military.","maxScore":82,"minScore":24,"description":"News color world board task community. Already join around military stage.\nLess fall policy national agent. Heart present respond down worker such. Her sea pressure note view west.","estimatedTime":"2 weeks","previewFileId":"d0d6805b-50be-446d-8efd-8b1c5279f8c1","createdByUserId":"fafcf9e1-0215-4357-a370-083a90088d01"}'
