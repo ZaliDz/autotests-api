@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/4b75400f-8a25-4299-a37a-1be575e7ab78' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjAzLjU2Mjk3NCIsInVzZXJfaWQiOiIxMGFkZTc1Yi03NWE0LTRmNGMtYTlhMC00ZTY4NDdhMTI1MzUifQ.NDbi4DAiGKpCLbp9uRZGxZ1LGnPp6goVqMnXNa5FDA0' \
+  -H 'content-length: 229' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Return skill hope money.","maxScore":59,"minScore":9,"description":"Here pretty vote personal friend move position happen. Growth table set. Player pass discussion even provide write certain.","estimatedTime":"2 weeks"}'

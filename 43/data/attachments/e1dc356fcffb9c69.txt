@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjAzLjU2Mjk3NCIsInVzZXJfaWQiOiIxMGFkZTc1Yi03NWE0LTRmNGMtYTlhMC00ZTY4NDdhMTI1MzUifQ.NDbi4DAiGKpCLbp9uRZGxZ1LGnPp6goVqMnXNa5FDA0' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Help who red chance fine treat top.","maxScore":66,"minScore":29,"description":"Other arm ability arm. Election sound provide lay.\nEnter those south what. Half store claim fact.\nBe public model summer. Bar sign despite.","estimatedTime":"6 weeks","previewFileId":"2064862b-2bdb-471c-b9d2-ab49fadd9f03","createdByUserId":"10ade75b-75a4-4f4c-a9a0-4e6847a12535"}'

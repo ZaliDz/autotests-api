@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjA3LjE1NjY4NCIsInVzZXJfaWQiOiI4ZmE2YWQxNi1lNmVmLTQ1MzEtODlkYS03MzAwNDk1ZWZjY2YifQ.whwGLtyfYTEZ_p1ChbGWtHErhJoq13G-aYMeAArkkvU' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Meeting join lay site institution.","maxScore":63,"minScore":9,"description":"Able home call involve improve. Anyone space pretty central huge citizen. Hand administration training.\nKey agency explain election activity amount hotel. Something discussion for card want but fund.","estimatedTime":"10 weeks","previewFileId":"16da8071-4fb5-4b31-8efc-70e2af25ac46","createdByUserId":"8fa6ad16-e6ef-4531-89da-7300495efccf"}'

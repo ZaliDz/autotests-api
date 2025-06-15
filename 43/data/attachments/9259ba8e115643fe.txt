@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjA0Ljc0OTM2MiIsInVzZXJfaWQiOiJiZWE3NWYyZi1jZTA4LTQ3NmYtYTk3ZC02NTgyOGIxMGNkOGEifQ.88SHEAvktnsuDN5dobjnaVKUVoxZv9bWdNGm2hQAsLA' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Later away knowledge discussion law pressure growth.","maxScore":65,"minScore":19,"description":"Name have avoid ready focus top even. Attack science condition gun thing coach identify.\nCut yard small plant first chair. Inside represent main form tax use. Discussion detail their feel.","estimatedTime":"3 weeks","previewFileId":"bef20597-85d7-4446-8ff9-87f8db3699c6","createdByUserId":"bea75f2f-ce08-476f-a97d-65828b10cd8a"}'

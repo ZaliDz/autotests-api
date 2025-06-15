@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/3981b0f5-471e-4d51-8fb7-e67c5d53e37e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjA1LjAyNDgzMiIsInVzZXJfaWQiOiJmYzBiZWJkMi1mYjY0LTQxZjYtOWJlMi04NTQ1MmFhYzVjMDUifQ.8aSW9mCW4-3KbJjIi7epMRXyOevRSzorksGUtVtR_5w' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Since go manager.","courseId":"ceb507f1-3818-49f3-bf5f-525c5b03add0","maxScore":93,"minScore":25,"orderIndex":77,"description":"The whether bar ball purpose other medical. True kind view piece.\nAlways official available. Relate cover agree thousand. Figure pull drive size three four week.","estimatedTime":"10 weeks"}'

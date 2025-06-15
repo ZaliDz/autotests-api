@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjAyLjQyMjQwNiIsInVzZXJfaWQiOiJkMGE5ZDhkYy05NWI0LTRmYjctOTM2Ny01NGJmNzllNWJlYmEifQ.c8U-NmDUG2bqbc0maNq5t9S-uySxeu1AvB83BoiyAeY' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Organization game power.","maxScore":50,"minScore":11,"description":"Find hair thousand others. Side letter pass rule person country finally with. A early president politics floor of.\nNearly until forget reduce leave. Amount thing end seem from.","estimatedTime":"1 weeks","previewFileId":"223189f4-da10-498f-b169-40ee04db8d7c","createdByUserId":"d0a9d8dc-95b4-4fb7-9367-54bf79e5beba"}'

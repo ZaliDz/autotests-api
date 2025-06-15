@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE2OjA2LjIwNzI1OCIsInVzZXJfaWQiOiI2ZjU5NDA2My02N2EwLTQ2MmUtYTc0MC1mMzRkOThiMTk0ZDEifQ.UcIloeDw3fjoNuP09zClza-8-WStIwWBeeNEHfHymKk' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Product direction hair standard.","maxScore":81,"minScore":7,"description":"It meeting rate put age who. Step everybody physical two time tough.\nEconomy knowledge leave toward where. Room country time you modern language lawyer hit.","estimatedTime":"1 weeks","previewFileId":"fe24c359-7f48-48bb-a17d-b80ccc5ef2a4","createdByUserId":"6f594063-67a0-462e-a740-f34d98b194d1"}'
