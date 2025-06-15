@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjI5LjQ2MTM5MCIsInVzZXJfaWQiOiJiY2ExNjQ1MS05OGNkLTRhY2YtOTc4OC01Nzc0OWZlN2FhZjUifQ.EwzD-vkv3nNktmDvsvwGIgSZiHGG_ReDUJ8X03FuixQ' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Leave those someone daughter.","maxScore":79,"minScore":24,"description":"From do off help. Cost design summer room college. Official his before law indicate difference each.\nCompare college ground indicate rich foot political. Skill result sign store up almost wind be.","estimatedTime":"5 weeks","previewFileId":"04de9c6f-c776-48bd-94a8-991e6aa666e0","createdByUserId":"bca16451-98cd-4acf-9788-57749fe7aaf5"}'

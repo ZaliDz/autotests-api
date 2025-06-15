@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjI4LjIyNzMwOCIsInVzZXJfaWQiOiJhOWFkYWJhNS1kYWMzLTQ5NjAtYmQ2ZC1lMDMzMzZjNzg2ZDQifQ.m-kz0WkxSB4N7HK5K_gLYrrKJhJNMUBkJUjhgDEwpbo' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Media so task simply mind social some.","maxScore":55,"minScore":1,"description":"Lead song hundred home approach human poor. Mr dog law president little affect rock. Travel use image.\nWord between cost down ten wish. Rock father find important.","estimatedTime":"2 weeks","previewFileId":"a0138450-ea1d-449c-9ac6-82bfae478463","createdByUserId":"a9adaba5-dac3-4960-bd6d-e03336c786d4"}'

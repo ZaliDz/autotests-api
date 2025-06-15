@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/7b28aba0-71ee-4c7a-becb-3121cd63162c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjI3LjU5NjY5NyIsInVzZXJfaWQiOiJjZTM4NGRlNS0zMDVhLTQyOTAtYTllNS1mZGEwNjMzMzUzMzgifQ.XRiPSB38rXjOMbNZMSUDKTkip8x0WiTZWP7Fn4NDWAU' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"He name plan.","courseId":"9d42f3c0-e993-409b-9bf1-39db4a6c4992","maxScore":93,"minScore":25,"orderIndex":47,"description":"Reach news decade music. Idea exactly boy region force way.\nTough without beyond man event center decision. Clear control room feel close every various.","estimatedTime":"4 weeks"}'

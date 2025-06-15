@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjI4LjIyNzMwOCIsInVzZXJfaWQiOiJhOWFkYWJhNS1kYWMzLTQ5NjAtYmQ2ZC1lMDMzMzZjNzg2ZDQifQ.m-kz0WkxSB4N7HK5K_gLYrrKJhJNMUBkJUjhgDEwpbo' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Such level civil surface upon newspaper especially common.","courseId":"a8ccd561-54bc-4dad-8fce-a1e240322b4a","maxScore":83,"minScore":4,"orderIndex":23,"description":"Get enjoy play. Serious after race somebody. Bank agent economy worry.\nMaintain something whom ask involve finish. Hear defense if little day subject.","estimatedTime":"1 weeks"}'

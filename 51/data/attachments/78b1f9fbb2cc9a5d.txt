@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjI2LjQzMDE0NCIsInVzZXJfaWQiOiJkYjJkNmEzYi02MjQ2LTQxZGEtYWIzNy1hMjc4YmM0ZWZlMWEifQ.7hNjBqP8jFDCDzpe_v4bsQqJIIlBawNpIH4U2rUhUv0' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yet week four walk theory produce.","maxScore":89,"minScore":8,"description":"Form light foot south. Loss sort truth under treatment change. Administration discuss method space listen stock wonder anything.","estimatedTime":"3 weeks","previewFileId":"9d8011db-bb74-4532-bab8-29ed6d398a73","createdByUserId":"db2d6a3b-6246-41da-ab37-a278bc4efe1a"}'

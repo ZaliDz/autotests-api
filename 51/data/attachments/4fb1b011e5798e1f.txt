@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE4OjI4LjgxMDYxOCIsInVzZXJfaWQiOiI5ZGY1ZjUzNS1iZDVlLTQ2NTEtYjY1My1jNWRiNTVkN2M4M2YifQ.fVxuS2P6L-EVU3vAejs9hBP0EyjPjpK07KkiAhpeXEY' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Special card prevent suffer.","maxScore":58,"minScore":28,"description":"Make score manage summer itself art others. Game evening focus rich knowledge coach have imagine.\nAge office stand protect parent. Number may total same quality night soon. Bar tree at let.","estimatedTime":"9 weeks","previewFileId":"817fee1a-f4fa-4159-a999-c4721d1ee305","createdByUserId":"9df5f535-bd5e-4651-b653-c5db55d7c83f"}'
