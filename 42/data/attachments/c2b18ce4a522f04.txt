@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjQ4LjQ1MDY0MCIsInVzZXJfaWQiOiIzZjI5MWE0Yi0zNTMwLTQ5NjQtYWNjZS00NDZjZDI1NGZhNDIifQ.l6VxrizevV-NCjQ7AfVFIbFulEdnhh00aAlNP6qOtLE' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Either miss which successful.","maxScore":67,"minScore":26,"description":"Believe evidence drop coach speech line. Describe thus find commercial build.\nResearch media him outside. Continue music company deep investment force.","estimatedTime":"3 weeks","previewFileId":"8a676eef-399d-4dd1-8739-bb7aa00553b2","createdByUserId":"3f291a4b-3530-4964-acce-446cd254fa42"}'

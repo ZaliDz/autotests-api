@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjQ5LjYyODQwMiIsInVzZXJfaWQiOiJkMTQyMmIwMS0zMDU0LTQ2YjItODEwNi1iZTQwNWFlOWY1ZGMifQ.d_-VpWU9aKpygfU3dZHuF_m6J4wjw5GIhV9N7jeOgDI' \
+  -H 'content-length: 443' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Many young ability office entire wear help bank.","maxScore":91,"minScore":25,"description":"Safe always thus moment in news recognize. Majority social there political range nice light.\nHear section week Republican. Race design wide road if strong.\nAnd news meeting sign southern attack tax.","estimatedTime":"4 weeks","previewFileId":"93eb8646-58da-4184-b8af-8201de00f4e9","createdByUserId":"d1422b01-3054-46b2-8106-be405ae9f5dc"}'

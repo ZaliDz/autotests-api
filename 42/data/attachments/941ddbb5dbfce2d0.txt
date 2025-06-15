@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjQ5LjYyODQwMiIsInVzZXJfaWQiOiJkMTQyMmIwMS0zMDU0LTQ2YjItODEwNi1iZTQwNWFlOWY1ZGMifQ.d_-VpWU9aKpygfU3dZHuF_m6J4wjw5GIhV9N7jeOgDI' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Goal sit different understand.","courseId":"6fe993fe-4031-4fae-a2c5-2ed365e97d17","maxScore":52,"minScore":19,"orderIndex":16,"description":"Station say fire crime team about arm such. Plan loss degree next.\nOpportunity hotel specific understand industry. Computer event spend pick even both.","estimatedTime":"5 weeks"}'

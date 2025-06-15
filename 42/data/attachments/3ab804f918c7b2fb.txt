@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjQ2LjEzMjU0MCIsInVzZXJfaWQiOiI4OTg5MmM4MC1hMTIwLTRhN2UtOGU5Ny0yODQ2MmE0M2YyOWUifQ.iMombQVRFYKmX9CHip68tkloxj__bVdBIlXSQ261npo' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Late agency place rock claim improve.","maxScore":88,"minScore":22,"description":"Read travel cultural fast TV woman.\nAccount election should ten film like. State continue old data tonight. Where skin remember his discover matter.","estimatedTime":"10 weeks","previewFileId":"16d1fb5f-0d1b-42d2-85ba-91b9ebf40881","createdByUserId":"89892c80-a120-4a7e-8e97-28462a43f29e"}'

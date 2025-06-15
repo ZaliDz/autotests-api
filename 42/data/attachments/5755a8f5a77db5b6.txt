@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/098e156a-fa70-43ac-bdd8-f8a87a06f93d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjQ3LjI3NTYxNSIsInVzZXJfaWQiOiI5MjI3ZDViZC1lMWYwLTRkMDUtYWQwNi04NzM5ZTRiNDE4MmQifQ.CUMk8dltGK5fDg6J8eF8hRHohknPJ-0qf6ai8iMBnKQ' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pick western husband control before already.","maxScore":95,"minScore":8,"description":"Their company us vote wonder. Idea we professor accept bring.\nCivil suddenly whole character do produce race action. Politics glass describe debate bag blue. Participant back expert agree.","estimatedTime":"2 weeks"}'

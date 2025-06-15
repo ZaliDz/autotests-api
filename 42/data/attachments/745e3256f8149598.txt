@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjQ3LjI3NTYxNSIsInVzZXJfaWQiOiI5MjI3ZDViZC1lMWYwLTRkMDUtYWQwNi04NzM5ZTRiNDE4MmQifQ.CUMk8dltGK5fDg6J8eF8hRHohknPJ-0qf6ai8iMBnKQ' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Oil individual article drug.","maxScore":73,"minScore":22,"description":"Onto ever wall style administration possible space. To environmental name good audience.\nLet six music direction. Candidate weight fact into even. Interesting start event idea.","estimatedTime":"6 weeks","previewFileId":"cee71a49-fb1c-4076-ac01-022c5e8ac0d8","createdByUserId":"9227d5bd-e1f0-4d05-ad06-8739e4b4182d"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjUwLjgzMTE4NCIsInVzZXJfaWQiOiJkOWI5OWEwOC05MzU4LTQ1NDgtODU4MS1jYmVkYzFkNGM4MDUifQ.3tl35WndB_S9tQ-FzoK9EGzbKb38YmuSKaQnvnunXMA' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Military area chance good.","maxScore":72,"minScore":11,"description":"Significant face test push response. Gun Mr executive garden beyond.\nAddress check order behind seven attention him. Fast page focus event yet will decision. Whole how become think bed address.","estimatedTime":"3 weeks","previewFileId":"05aaa8c7-b25a-44b5-9919-ec9686e55bee","createdByUserId":"d9b99a08-9358-4548-8581-cbedc1d4c805"}'

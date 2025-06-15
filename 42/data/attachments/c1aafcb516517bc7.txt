@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/981318f0-999a-45cc-939d-d45cadb5f1b0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjQ4LjcyMjMwMCIsInVzZXJfaWQiOiIwYjIzYTM5ZS04YzgwLTRiYzctYWE4Yi0yNTczMWY4NTU5NzIifQ.TC-YdZ6Dna-xKwmqjBXFn_PkfmK-kWvUiY7sJZKeNfE' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Kitchen citizen present news successful.","courseId":"e187fd0b-ddd2-45b1-9992-7955e2f7da9c","maxScore":80,"minScore":7,"orderIndex":47,"description":"Me today various gun certain.\nAir and energy surface no figure. New painting customer order consumer doctor return nor. Memory rich four investment eat nice church girl.","estimatedTime":"10 weeks"}'

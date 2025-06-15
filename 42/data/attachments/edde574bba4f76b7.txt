@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjE1OjQ3LjU0ODUyMSIsInVzZXJfaWQiOiJmNDJlYzg1Yy0wMTQ3LTRhYTUtODg4OS1jNmRiN2VjZTVlNzUifQ.x-XybbYaidIjshrjZOaSfW4_KugmZR1hRwtcbtj9gaE' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sell everybody heart all.","maxScore":68,"minScore":20,"description":"Fight movie kind want nothing measure. Suddenly commercial sister matter. Capital off product training food.","estimatedTime":"1 weeks","previewFileId":"4566c584-4fa7-4a0f-9f0e-d5b7c374a5a8","createdByUserId":"f42ec85c-0147-4aa5-8889-c6db7ece5e75"}'
