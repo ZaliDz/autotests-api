@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjIyOjI4LjI2ODY4MiIsInVzZXJfaWQiOiIxMDY1NzM0ZS03NDQ1LTRhNzktOWJhMi0wZDE1MzlhNDhjNTAifQ.C7ArlfUg5HtgFstIAHFU7zxFbi3mOWqvghWN7XXN1iE' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ever operation memory tax environmental black or.","courseId":"c46bbc58-192e-40e5-bd0d-024367104e30","maxScore":80,"minScore":3,"orderIndex":12,"description":"Remember herself different black popular determine knowledge want. Somebody career stay soldier smile include goal. Upon let wide Democrat little.\nTheory accept commercial piece example natural.","estimatedTime":"7 weeks"}'

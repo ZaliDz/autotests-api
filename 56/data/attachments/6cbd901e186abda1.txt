@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjIyOjI2LjgwNTMyMiIsInVzZXJfaWQiOiJkNjU0ODRiYi05ODkwLTQyYTgtOWRhMi05MDNjZTUyNjVkNDQifQ.h-Bps1Y4OuUq-KdD0A2kcDLKfvtQ5zQmYiL-2_ahRr8' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Environmental trip current their.","maxScore":67,"minScore":26,"description":"Blood risk ever task street general.\nNeed small official tell budget foot. Move campaign position south.\nWait face family. Lawyer society yes cultural realize fly.","estimatedTime":"10 weeks","previewFileId":"2c24c58d-7f26-46f6-9992-39b6ce5d2177","createdByUserId":"d65484bb-9890-42a8-9da2-903ce5265d44"}'

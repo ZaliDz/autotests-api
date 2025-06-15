@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjIyOjI4LjU0MzY4MCIsInVzZXJfaWQiOiIxMTUzMmI3YS04MGJiLTRiZTctYTk1OS0xZjBlNGYxMzU1ZDUifQ.xn4oBh_0bpdMwkrYvYU5BvE8r4OIt1urShy6wPcYDM8' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Too live doctor live.","maxScore":70,"minScore":13,"description":"Interview avoid black. Man claim PM note attack whose already. Trip north note great them by.","estimatedTime":"4 weeks","previewFileId":"156bc7b1-36c7-4bd8-b67d-681bac54ac9c","createdByUserId":"11532b7a-80bb-4be7-a959-1f0e4f1355d5"}'

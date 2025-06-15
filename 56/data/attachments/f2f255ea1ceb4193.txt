@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjIyOjI3LjM5NDc1MSIsInVzZXJfaWQiOiJmNjEwMzA4ZS0zZDNjLTQ2ODYtOTI3Ny1kYTU2MjUzMzVhZmQifQ.SRclvRSd97vE9CkAulvDbugTV52bM_hQwniofZ8HND0' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Point deep culture enter material himself buy.","maxScore":89,"minScore":30,"description":"Store spring beat manager. Civil mention organization.\nMemory within believe. Skin recently role accept hope animal.","estimatedTime":"1 weeks","previewFileId":"62476d79-4b5c-470c-8984-3cec2808f4f0","createdByUserId":"f610308e-3d3c-4686-9277-da5625335afd"}'

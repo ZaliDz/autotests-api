@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjIyOjI4LjI2ODY4MiIsInVzZXJfaWQiOiIxMDY1NzM0ZS03NDQ1LTRhNzktOWJhMi0wZDE1MzlhNDhjNTAifQ.C7ArlfUg5HtgFstIAHFU7zxFbi3mOWqvghWN7XXN1iE' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Long like assume.","maxScore":96,"minScore":25,"description":"Determine practice whom. Address past government voice.\nRepresent mission smile activity wonder property time. Food heart personal last until. Different time task once.","estimatedTime":"3 weeks","previewFileId":"3e8fa5a3-363a-48c7-8251-139c76e484b6","createdByUserId":"1065734e-7445-4a79-9ba2-0d1539a48c50"}'

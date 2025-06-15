@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjIyOjMwLjcwMzc4MCIsInVzZXJfaWQiOiIyZmVjMWY4ZC1kZDI0LTQ5YmUtYjFiYS0zYTFkNzIzNmY1MzEifQ.x0EGgDK_9_Wq3chmeQfqxXxmV-luq2m_Lx6_26JXFpc' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"After couple trip age military loss.","maxScore":57,"minScore":8,"description":"Yard discover college number possible increase another group. Time traditional whether spend none management.\nCollege ability add. Relationship firm really population share.","estimatedTime":"9 weeks","previewFileId":"f00802eb-6874-43f3-b58b-a682f171d409","createdByUserId":"2fec1f8d-dd24-49be-b1ba-3a1d7236f531"}'

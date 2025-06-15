@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c63f46fb-9efc-4a9c-bc4a-a587ebd86acc' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA4OjIyOjI2LjgwNTMyMiIsInVzZXJfaWQiOiJkNjU0ODRiYi05ODkwLTQyYTgtOWRhMi05MDNjZTUyNjVkNDQifQ.h-Bps1Y4OuUq-KdD0A2kcDLKfvtQ5zQmYiL-2_ahRr8' \
+  -H 'content-length: 291' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Writer phone audience evening.","maxScore":74,"minScore":23,"description":"Culture work simple support. Professor subject father.\nWater road push today. Town ball month little send someone.\nStatement rich its affect. Operation seek assume price space.","estimatedTime":"8 weeks"}'
